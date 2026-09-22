@@ -1,0 +1,34 @@
+# OurDream AI Guide
+
+> An independent OurDream AI guide to character creation, AI companion chat, story roleplay, privacy, pricing questions, and leading alternatives.
+
+Canonical publication: https://ourdream-ai.fun/
+
+This is an independent editorial publication, not the official provider. Articles distinguish published provider information from suggested evaluation methods. Examples and proposed tests are not measured benchmark results. Check dated sources and live provider terms for changing features and prices.
+
+## Main pages
+
+- [Homepage](https://ourdream-ai.fun/): Overview and practical decision guidance.
+- [Blog and comparisons](https://ourdream-ai.fun/blog/): Browse the editorial article collection.
+
+## Comparisons
+
+- [OurDream AI vs Candy AI: Character Creation and Chat Compared](https://ourdream-ai.fun/blog/ourdream-ai-vs-candy-ai/)
+- [OurDream AI vs CrushOn AI: Features, Strengths, Weaknesses](https://ourdream-ai.fun/blog/ourdream-ai-vs-crushon-ai/)
+- [OurDream AI vs GirlfriendGPT: Features, Strengths, Weaknesses](https://ourdream-ai.fun/blog/ourdream-ai-vs-girlfriendgpt/)
+- [OurDream AI vs GPTGirlfriend: Which AI Companion Fits Your Story?](https://ourdream-ai.fun/blog/ourdream-ai-vs-gptgirlfriend/)
+- [OurDream AI vs Lovescape: Features, Strengths, Weaknesses](https://ourdream-ai.fun/blog/ourdream-ai-vs-lovescape/)
+
+## Publication information
+
+- [About](https://ourdream-ai.fun/about/)
+- [Editorial policy](https://ourdream-ai.fun/editorial-policy/)
+- [Contact](https://ourdream-ai.fun/contact/)
+- [Privacy policy](https://ourdream-ai.fun/privacy/)
+- [Terms](https://ourdream-ai.fun/terms/)
+
+## Optional
+
+- [XML sitemap](https://ourdream-ai.fun/sitemap-index.xml): Canonical page inventory.
+- [RSS feed](https://ourdream-ai.fun/rss.xml): Published article updates.
+- [Robots policy](https://ourdream-ai.fun/robots.txt): Crawler access directives.
