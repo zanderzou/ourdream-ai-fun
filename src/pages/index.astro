@@ -5,7 +5,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import Icon from "../components/Icon.astro";
 import PostCard from "../components/PostCard.astro";
 import { site } from "../data/site";
-import heroImage from "../assets/ourdream-adult-swimwear-editorial.jpg";
+import heroImage from "../assets/ourdream-user-character-editorial.png";
+import secondaryImage from "../assets/ourdream-user-warm-character.png";
 
 const posts = (await getCollection("blog")).sort((a,b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf());
 const faqs = [
@@ -24,10 +25,10 @@ const jsonLd = { "@context":"https://schema.org", "@graph":[
 ---
 <BaseLayout title="OurDream AI Guide: Features, Privacy & Alternatives" description={site.description} keywords={["OurDream AI","OurDream AI review","OurDream AI alternatives","AI companion","AI character creator"]} jsonLd={jsonLd}>
   <section class="hero">
-    <Image class="hero-image" src={heroImage} alt="Adult model in turquoise swimwear in a bright beach setting" widths={[640,960,1280,1536]} sizes="100vw" loading="eager" fetchpriority="high" quality={84} />
+    <Image class="hero-image" src={heroImage} alt="Stylized adult fictional character in a red editorial portrait" widths={[640,960,1280,1536]} sizes="100vw" loading="eager" fetchpriority="high" quality={84} />
     <div class="hero-glow"></div>
     <div class="hero-copy reveal"><div class="kicker">Independent OurDream AI guide</div><h1>Design a character.<span>Build a whole world.</span></h1><p>Explore OurDream AI character creation, companion chat, visual storytelling, privacy questions, pricing considerations, and the best alternatives—before you commit.</p><div class="hero-actions"><a class="button primary" href="#features">Explore the experience <Icon name="spark" /></a><a class="button ghost" href="/blog/ourdream-ai-vs-candy-ai/">Read the comparison</a></div><div class="hero-trust"><span><Icon name="heart" /> Character-first</span><span><Icon name="chat" /> Story-focused</span><span><Icon name="lock" /> Privacy-aware</span><span>Independent review</span></div></div>
-    <div class="photo-credit">Editorial image: <a href="https://www.pexels.com/photo/11455867/" target="_blank" rel="noopener noreferrer">Fran Bertucci / Pexels</a> · no endorsement implied</div>
+    <div class="photo-credit">User-provided adult editorial · no endorsement implied</div>
   </section>
 
   <section class="section intent-grid"><div><div class="section-label">01 / Understand the experience</div><h2>What makes <span>OurDream AI</span> different?</h2></div><div class="intent-copy"><p class="lead">OurDream AI is built around creating a fictional companion rather than simply opening a generic chatbot. Appearance, personality, conversation, and visual scenes work together as one story.</p><p>This independent OurDream AI guide helps you evaluate that experience using practical criteria: customization depth, roleplay continuity, image controls, credit costs, privacy, deletion, and how it compares with Candy AI and GPTGirlfriend.</p><div class="keyword-line"><span>OurDream AI review</span><span>AI companion chat</span><span>AI character creator</span><span>OurDream alternatives</span><span>roleplay privacy</span></div></div></section>
@@ -45,6 +46,7 @@ const jsonLd = { "@context":"https://schema.org", "@graph":[
 
   <section class="section seo-copy" aria-labelledby="ourdream-ai-fun-research">
     <div class="section-head"><div><div class="section-label">06 / Detailed OurDream AI research</div><h2 id="ourdream-ai-fun-research">A deeper OurDream AI guide<br/><span>for careful comparison.</span></h2></div><p>This text-led section expands the practical questions people ask after the first product overview.</p></div>
+    <figure class="seo-visual"><Image src={secondaryImage} alt="Stylized adult fictional character in a warm cinematic portrait" widths={[640,960,1280]} sizes="(max-width: 640px) 100vw, 1200px" loading="lazy" quality={84}/><figcaption><span>Character direction</span><strong>Distinct visual identities help test character consistency across scenes.</strong></figcaption></figure>
     <div class="seo-copy-grid">
       <article><h3>What to evaluate in a OurDream AI review</h3><p>A useful OurDream AI review should explain the actual job the product performs: visual character creation, companion chat, and long-form story roleplay. Look past headline feature counts and test whether the main workflow stays clear from setup to a usable result.</p><p>Our recommended method is to build a fictional adult character, test memory, and create matching scenes. Record setup time, consistency, failed attempts, feature limits, and the real cost of one repeatable session. That creates evidence you can compare instead of relying on marketing language.</p></article>
       <article><h3>OurDream AI features, cost, and output quality</h3><p>Feature availability and plan limits can change. Before paying, identify which actions are included, which consume credits or tokens, whether retries are charged, and whether exports carry restrictions. A low subscription price can become expensive when the workflow needs repeated generations.</p><p>Quality should mean more than visual polish. Score control, repeatability, continuity, speed, and how often the result is actually usable. Verify current pricing and plan details on the official service at checkout.</p></article>
