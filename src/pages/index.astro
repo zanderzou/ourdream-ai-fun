@@ -23,7 +23,7 @@ const jsonLd = { "@context":"https://schema.org", "@graph":[
   { "@type":"FAQPage", mainEntity:faqs.map((faq)=>({"@type":"Question",name:faq.question,acceptedAnswer:{"@type":"Answer",text:faq.answer}})) }
 ]};
 ---
-<BaseLayout title="OurDream AI Guide: Features, Privacy & Alternatives" description={site.description} keywords={["OurDream AI","OurDream AI review","OurDream AI alternatives","AI companion","AI character creator"]} jsonLd={jsonLd}>
+<BaseLayout title="OurDream AI" description={site.description} keywords={["OurDream AI","OurDream AI review","OurDream AI alternatives","AI companion","AI character creator"]} jsonLd={jsonLd}>
   <section class="hero">
     <Image class="hero-image" src={heroImage} alt="Stylized adult fictional character in a red editorial portrait" widths={[640,960,1280,1536]} sizes="100vw" loading="eager" fetchpriority="high" quality={84} />
     <div class="hero-glow"></div>
