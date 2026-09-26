@@ -1,0 +1,72 @@
+---
+import LocalizedLayout from "../../../layouts/LocalizedLayout.astro";
+import { comparisonArticles, sourceLinks } from "../../../data/localized-articles";
+import { articleSlug, comparisons, locales, ui, type ComparisonSlug, type Locale } from "../../../data/locales";
+import { site } from "../../../data/site";
+
+export function getStaticPaths() {
+  return locales.flatMap((locale) => comparisons.map((item) => ({
+    params: { locale: locale.slug, slug: articleSlug(item.slug) }
+  })));
+}
+const locale = Astro.params.locale as Locale;
+const slug = Astro.params.slug!;
+const item = comparisons.find((entry) => articleSlug(entry.slug) === slug)!;
+const key = item.slug as ComparisonSlug;
+const article = comparisonArticles[locale]![key];
+const label = ui[locale];
+const lang = locales.find((entry) => entry.slug === locale)!.lang;
+const url = `${site.url}/${locale}/blog/${slug}/`;
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      headline: article.title,
+      description: article.description,
+      url,
+      inLanguage: lang,
+      datePublished: "2026-09-26",
+      dateModified: "2026-09-26",
+      author: { "@type": "Organization", name: site.author },
+      publisher: { "@type": "Organization", name: "OurDream AI editorial" },
+      about: [{ "@type": "SoftwareApplication", name: "OurDream AI", url: site.officialUrl }, { "@type": "SoftwareApplication", name: item.name, url: item.url }],
+      citation: ["https://land.ourdream.ai/", "https://help.ourdream.ai/en/articles/10808513", ...sourceLinks[key].map((source) => source.url)]
+    },
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "OurDream AI", item: `${site.url}/${locale}/` },
+        { "@type": "ListItem", position: 2, name: label.blog, item: `${site.url}/${locale}/blog/` },
+        { "@type": "ListItem", position: 3, name: article.title, item: url }
+      ]
+    }
+  ]
+};
+---
+<LocalizedLayout locale={locale} title={article.title} description={article.description} type="article" published="2026-09-26" modified="2026-09-26" jsonLd={jsonLd}>
+  <article class="locale-page locale-reading">
+    <header class="locale-page-header">
+      <span class="section-label"><a href={`/${locale}/blog/`}>{label.blog}</a> · OurDream AI vs {item.name}</span>
+      <h1>{article.title}</h1>
+      <p>{article.intro}</p>
+    </header>
+    <section aria-label={label.compare}>
+      <h2>{label.compare}</h2>
+      <div class="locale-article-table"><table>
+        <thead><tr><th scope="col">{label.method}</th><th scope="col">OurDream AI</th><th scope="col">{item.name}</th></tr></thead>
+        <tbody>{article.dimensions.map(([dimension, ours, rival]) => <tr><th scope="row">{dimension}</th><td>{ours}</td><td>{rival}</td></tr>)}</tbody>
+      </table></div>
+    </section>
+    {article.sections.map(([heading, body]) => <section class="locale-article-section"><h2>{heading}</h2><p>{body}</p></section>)}
+    <section class="locale-article-verdict"><h2>{label.decision}</h2><p>{article.verdict}</p><p>{label.independence} {label.revisit}</p></section>
+    <section class="locale-article-section"><h2>{label.sources}</h2><ul class="locale-source-list">
+      <li><a href="https://land.ourdream.ai/" rel="noopener" target="_blank">OurDream AI · product overview ↗</a></li>
+      <li><a href="https://help.ourdream.ai/en/articles/10808513" rel="noopener" target="_blank">OurDream AI · Dreamcoins ↗</a></li>
+      {sourceLinks[key].map((source) => <li><a href={source.url} rel="noopener" target="_blank">{source.name} ↗</a></li>)}
+    </ul></section>
+    <section class="locale-article-section"><h2>{label.allArticles}</h2><div class="locale-grid">
+      {comparisons.filter((other) => other.slug !== key).map((other) => <a href={`/${locale}/blog/${articleSlug(other.slug)}/`}><h3>{comparisonArticles[locale]![other.slug].title}</h3><strong>{label.read} →</strong></a>)}
+    </div></section>
+  </article>
+</LocalizedLayout>

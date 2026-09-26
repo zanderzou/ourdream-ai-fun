@@ -1,0 +1,21 @@
+---
+import LocalizedLayout from "../../../layouts/LocalizedLayout.astro";
+import { home } from "../../../data/localized-home";
+import { articleSlug, comparisons, locales, ui, type Locale } from "../../../data/locales";
+import { site } from "../../../data/site";
+export function getStaticPaths() { return locales.map((item) => ({ params: { locale: item.slug } })); }
+const locale = Astro.params.locale as Locale;
+const copy = home[locale]!;
+const label = ui[locale];
+const lang = locales.find((item) => item.slug === locale)!.lang;
+const description = `${copy.compare.lead} ${label.independence}`;
+const jsonLd = { "@context": "https://schema.org", "@type": "CollectionPage", name: `OurDream AI · ${label.allArticles}`, url: `${site.url}/${locale}/blog/`, description, inLanguage: lang, hasPart: comparisons.map((item) => ({ "@type": "Article", headline: `OurDream AI vs ${item.name}`, url: `${site.url}/${locale}/blog/${articleSlug(item.slug)}/` })) };
+---
+<LocalizedLayout locale={locale} title={`OurDream AI · ${label.allArticles}`} description={description} jsonLd={jsonLd}>
+  <div class="locale-page">
+    <header class="locale-page-header"><span class="section-label">OurDream AI · {label.blog}</span><h1>{label.allArticles}</h1><p>{copy.compare.lead}</p></header>
+    <div class="locale-grid">{comparisons.map((item, index) => <a href={`/${locale}/blog/${articleSlug(item.slug)}/`}><span class="index">0{index + 1} · OurDream AI vs {item.name}</span><h3>{copy.compare.rows[index][0]}</h3><p>{copy.compare.rows[index][1]}</p><strong>{label.read} →</strong></a>)}</div>
+    <section class="locale-section"><h2>{label.method}</h2><p>{copy.workflow.lead}</p><p>{copy.costs.paragraphs[0]}</p></section>
+    <section class="locale-section"><h2>{label.sources}</h2><p>{label.independence} {label.revisit}</p></section>
+  </div>
+</LocalizedLayout>

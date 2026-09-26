@@ -1,0 +1,33 @@
+---
+import { Image } from "astro:assets";
+import LocalizedLayout from "../../layouts/LocalizedLayout.astro";
+import { home } from "../../data/localized-home";
+import { articleSlug, comparisons, locales, ui, type Locale } from "../../data/locales";
+import { site } from "../../data/site";
+import heroImage from "../../assets/ourdream-user-character-editorial.png";
+import secondaryImage from "../../assets/ourdream-user-warm-character.png";
+export function getStaticPaths() { return locales.map((item) => ({ params: { locale: item.slug } })); }
+const locale = Astro.params.locale as Locale;
+const copy = home[locale]!;
+const label = ui[locale];
+const lang = locales.find((item) => item.slug === locale)!.lang;
+const jsonLd = { "@context": "https://schema.org", "@graph": [
+  { "@type": "WebPage", name: "OurDream AI", url: `${site.url}/${locale}/`, description: copy.description, inLanguage: lang, about: { "@type": "SoftwareApplication", name: "OurDream AI", url: site.officialUrl } },
+  { "@type": "FAQPage", mainEntity: copy.faqs.map(([question, answer]) => ({ "@type": "Question", name: question, acceptedAnswer: { "@type": "Answer", text: answer } })) }
+] };
+---
+<LocalizedLayout locale={locale} title="OurDream AI" description={copy.description} jsonLd={jsonLd}>
+  <section class="locale-hero">
+    <Image src={heroImage} alt="Editorial illustration of a clearly adult fictional character" widths={[640,960,1280,1536]} sizes="(max-width: 640px) 100vw, 62vw" loading="eager" fetchpriority="high" quality={84} />
+    <div><span class="locale-eyebrow">{copy.eyebrow}</span><h1>OurDream AI</h1><p class="tagline">{copy.tagline}</p><p>{copy.lead}</p><div class="locale-hero-actions"><a class="button primary" href="#workflow">{label.workflow} →</a><a class="button ghost" href={`/${locale}/blog/`}>{label.blog} →</a></div></div>
+  </section>
+  <section class="locale-section locale-intro" id="overview"><span class="section-label">01 · OurDream AI</span><h2>{copy.intro.heading}</h2>{copy.intro.paragraphs.map((paragraph) => <p>{paragraph}</p>)}</section>
+  <section class="locale-section" id="workflow"><span class="section-label">02 · {label.method}</span><h2>{copy.workflow.heading}</h2><p>{copy.workflow.lead}</p><ol class="locale-steps">{copy.workflow.steps.map(([heading, detail]) => <li><div><h3>{heading}</h3><p>{detail}</p></div></li>)}</ol></section>
+  <section class="locale-section" id="compare"><span class="section-label">03 · {label.compare}</span><h2>{copy.compare.heading}</h2><p>{copy.compare.lead}</p><div class="locale-grid">{copy.compare.rows.map(([heading, detail], index) => <a href={`/${locale}/blog/${articleSlug(comparisons[index].slug)}/`}><span class="index">0{index + 1} · OurDream AI vs {comparisons[index].name}</span><h3>{heading}</h3><p>{detail}</p><strong>{label.read} →</strong></a>)}</div></section>
+  <section class="locale-section locale-media-section"><div><span class="section-label">04 · Dreamcoins</span><h2>{copy.costs.heading}</h2>{copy.costs.paragraphs.map((paragraph) => <p>{paragraph}</p>)}<a class="button ghost" href="https://help.ourdream.ai/en/articles/10808513" rel="noopener" target="_blank">{label.sources} ↗</a></div><Image src={secondaryImage} alt="Editorial illustration of a clearly adult fictional character" widths={[480,720,960]} sizes="(max-width: 760px) 100vw, 420px" loading="lazy" quality={82} /></section>
+  <section class="locale-section"><span class="section-label">05 · {label.privacy}</span><h2>{copy.privacy.heading}</h2>{copy.privacy.paragraphs.map((paragraph) => <p>{paragraph}</p>)}</section>
+  <section class="locale-section"><span class="section-label">06 · {label.blog}</span><h2>{label.allArticles}</h2><div class="locale-grid three">{comparisons.map((item, index) => <a href={`/${locale}/blog/${articleSlug(item.slug)}/`}><span class="index">0{index + 1}</span><h3>OurDream AI vs {item.name}</h3><p>{copy.compare.rows[index][1]}</p><strong>{label.read} →</strong></a>)}</div></section>
+  <section class="locale-section locale-faq"><span class="section-label">07 · FAQ</span><h2>{label.questions}</h2>{copy.faqs.map(([question, answer]) => <details><summary>{question}</summary><p>{answer}</p></details>)}</section>
+  <section class="locale-section"><span class="section-label">08 · {label.sources}</span><h2>{label.sources}</h2><p>{label.revisit}</p><ul class="locale-source-list"><li><a href="https://land.ourdream.ai/" rel="noopener" target="_blank">OurDream AI · product overview ↗</a></li><li><a href="https://help.ourdream.ai/en/articles/10808513" rel="noopener" target="_blank">OurDream AI · Dreamcoin help ↗</a></li><li><a href="https://ourdream.ai/terms/terms-of-service" rel="noopener" target="_blank">OurDream AI · terms ↗</a></li><li><a href="https://ourdream.ai/terms/privacy-policy" rel="noopener" target="_blank">OurDream AI · privacy ↗</a></li></ul></section>
+  <section class="locale-section locale-end"><h2>OurDream AI</h2><p>{label.independence} {label.safety}</p><a class="button primary" href={site.officialUrl} rel="noopener" target="_blank">{label.official} ↗</a></section>
+</LocalizedLayout>

@@ -7,7 +7,7 @@ const { posts } = Astro.props;
 ---
 <footer>
   <div class="footer-grid">
-    <div><a class="brand" href="/"><span class="brand-icon"><Icon name="heart" /></span><strong>OUR<span>DREAM</span></strong><small>AI GUIDE</small></a><p>Independent research on OurDream AI, character creation, companion chat, imaginative roleplay, privacy, and alternatives.</p></div>
+    <div><a class="brand" href="/"><span class="brand-icon"><Icon name="heart" /></span><strong>OUR<span>DREAM</span> AI</strong></a><p>Independent research on OurDream AI, character creation, companion chat, imaginative roleplay, privacy, and alternatives.</p></div>
     <div><h3>Explore</h3><a href="/#features">OurDream AI features</a><a href="/#compare">OurDream comparisons</a><a href="/#privacy">Privacy checklist</a><a href={site.officialUrl} rel="noopener" target="_blank">Official website</a></div>
     <div><h3>Latest guides</h3>{posts.slice(0, 3).map((post) => <a href={`/blog/${post.id}/`}>{post.data.title}</a>)}</div>
     <div><h3>Information</h3><a href="/about/">About</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/editorial-policy/">Editorial policy</a><a href="/contact/">Contact</a></div>

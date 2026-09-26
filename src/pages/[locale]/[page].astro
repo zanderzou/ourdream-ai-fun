@@ -1,0 +1,22 @@
+---
+import LocalizedLayout from "../../layouts/LocalizedLayout.astro";
+import { information } from "../../data/localized-info";
+import { infoSlugs, locales, ui, type InfoSlug, type Locale } from "../../data/locales";
+import { site } from "../../data/site";
+export function getStaticPaths() {
+  return locales.flatMap((item) => infoSlugs.map((page) => ({ params: { locale: item.slug, page } })));
+}
+const locale = Astro.params.locale as Locale;
+const page = Astro.params.page as InfoSlug;
+const copy = information[locale]![page];
+const label = ui[locale];
+const lang = locales.find((item) => item.slug === locale)!.lang;
+const jsonLd = { "@context": "https://schema.org", "@type": "WebPage", name: copy.title, description: copy.description, url: `${site.url}/${locale}/${page}/`, inLanguage: lang, isPartOf: { "@type": "WebSite", name: "OurDream AI", url: site.url } };
+---
+<LocalizedLayout locale={locale} title={`${copy.title} | OurDream AI`} description={copy.description} jsonLd={jsonLd}>
+  <article class="locale-page">
+    <header class="locale-page-header"><span class="section-label">OurDream AI · {label[page === "editorial-policy" ? "editorial" : page]}</span><h1>{copy.title}</h1><p>{copy.lead}</p></header>
+    <div class="locale-reading">{copy.blocks.map(([heading, body]) => <section><h2>{heading}</h2><p>{body}</p></section>)}</div>
+    <section class="locale-section"><h2>{label.sources}</h2><p>{label.independence} {label.revisit}</p><ul class="locale-source-list"><li><a href="https://ourdream.ai/terms/terms-of-service" rel="noopener" target="_blank">OurDream AI · terms ↗</a></li><li><a href="https://ourdream.ai/terms/privacy-policy" rel="noopener" target="_blank">OurDream AI · privacy ↗</a></li></ul></section>
+  </article>
+</LocalizedLayout>

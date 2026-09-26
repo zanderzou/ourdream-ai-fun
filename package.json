@@ -14,6 +14,8 @@
     "test:sites": "node --test tests/sites-worker.test.mjs",
     "generate:llms": "node scripts/generate-llms.mjs",
     "test:llms": "node scripts/generate-llms.mjs --check",
+    "test:locales": "node scripts/audit-locales.mjs",
+    "test:interactions": "node scripts/audit-interactions.mjs",
     "prebuild": "npm run generate:llms"
   },
   "dependencies": {

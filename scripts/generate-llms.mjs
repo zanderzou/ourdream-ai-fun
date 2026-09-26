@@ -18,9 +18,19 @@ const articles=readdirSync(blog).filter(f=>f.endsWith('.md')).sort().map(f=>{
 const label=s=>s.replace(/[\[\]]/g,'');
 const links=[['Homepage','/','Overview and practical decision guidance.'],['Blog and comparisons','/blog/','Browse the editorial article collection.']];
 const optional=[['About','about'],['Editorial policy','editorial-policy'],['Contact','contact'],['Privacy policy','privacy'],['Terms','terms']].filter(([,slug])=>existsSync(path.join(pages,slug+'.astro'))||existsSync(path.join(pages,slug,'index.astro')));
+const localeLabels=[['ja','日本語'],['ko','한국어'],['zh-hant','繁體中文'],['es','Español'],['pt-br','Português do Brasil'],['ru','Русский'],['de','Deutsch'],['fr','Français'],['ar','العربية']];
+const rivalSlugs=['candy-ai','crushon-ai','lovescape','girlfriendgpt','replika'];
+const infoSlugs=['about','contact','editorial-policy','privacy','terms'];
+const localizedLinks=localeLabels.flatMap(([slug,language])=>[
+  `- [${language} homepage](${origin}/${slug}/)`,
+  `- [${language} comparisons](${origin}/${slug}/blog/)`,
+  ...rivalSlugs.map((rival)=>`- [${language}: OurDream AI vs ${rival}](${origin}/${slug}/blog/ourdream-ai-vs-${rival}/)`),
+  ...infoSlugs.map((page)=>`- [${language}: ${page}](${origin}/${slug}/${page}/)`)
+]);
 const text=[`# ${name}`,'',`> ${description}`,'',`Canonical publication: ${origin}/`,'','This is an independent editorial publication, not the official provider. Articles distinguish published provider information from suggested evaluation methods. Examples and proposed tests are not measured benchmark results. Check dated sources and live provider terms for changing features and prices.','',
  '## Main pages','',...links.map(([title,route,note])=>`- [${title}](${origin}${route}): ${note}`),'',
  '## Comparisons','',...articles.map(a=>`- [${label(a.title)}](${origin}/blog/${a.slug}/)`),'',
+ '## Full-language editions','',...localizedLinks,'',
  '## Publication information','',...optional.map(([title,slug])=>`- [${title}](${origin}/${slug}/)`),'',
  '## Optional','',`- [XML sitemap](${origin}/sitemap-index.xml): Canonical page inventory.`,`- [RSS feed](${origin}/rss.xml): Published article updates.`,`- [Robots policy](${origin}/robots.txt): Crawler access directives.`,''].join('\n');
 const destination=path.join(root,'public/llms.txt');

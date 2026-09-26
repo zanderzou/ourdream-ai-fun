@@ -1,0 +1,90 @@
+---
+import Analytics from "../components/Analytics.astro";
+import Icon from "../components/Icon.astro";
+import { site } from "../data/site";
+import { articleSlug, comparisons, infoSlugs, languageAlternates, locales, ui, type Locale } from "../data/locales";
+import "../styles.css";
+import "../localized.css";
+
+interface Props {
+  locale: Locale;
+  title: string;
+  description: string;
+  type?: "website" | "article";
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+  published?: string;
+  modified?: string;
+}
+const { locale, title, description, type = "website", jsonLd, published, modified } = Astro.props;
+const label = ui[locale];
+const language = locales.find((item) => item.slug === locale)!;
+const englishPath = Astro.url.pathname.replace(new RegExp(`^/${locale}(?=/|$)`), "") || "/";
+const canonical = new URL(Astro.url.pathname, site.url).toString();
+const image = `${site.url}/assets/ourdream-user-character-editorial.png`;
+const languages = [{ slug: "", lang: "en", label: "English" }, ...locales];
+const switchPath = (slug: string) => slug ? `/${slug}${englishPath}` : englishPath;
+const robots = "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1";
+---
+<!doctype html>
+<html lang={language.lang} dir={locale === "ar" ? "rtl" : "ltr"}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="msvalidate.01" content="56B74B6B9E884918F4F18C05D7E2A1F4" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="author" content={site.author} />
+    <meta name="robots" content={robots} />
+    <meta name="googlebot" content={robots} />
+    <meta name="bingbot" content={robots} />
+    <link rel="canonical" href={canonical} />
+    {languageAlternates(englishPath).map((entry) => <link rel="alternate" hreflang={entry.lang} href={new URL(entry.href, site.url).toString()} />)}
+    <link rel="alternate" hreflang="x-default" href={new URL(englishPath, site.url).toString()} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="alternate" type="application/rss+xml" href="/rss.xml" title="OurDream AI RSS" />
+    <meta name="theme-color" content="#0d060c" />
+    <meta property="og:type" content={type} />
+    <meta property="og:site_name" content="OurDream AI" />
+    <meta property="og:locale" content={language.lang.replace("-", "_")} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={image} />
+    <meta property="og:image:alt" content="Adult fictional character editorial image" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={image} />
+    {published && <meta property="article:published_time" content={published} />}
+    {modified && <meta property="article:modified_time" content={modified} />}
+    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+  </head>
+  <body class="localized-site">
+    <a class="skip-link" href="#main">{label.home}</a>
+    <header class="site-header locale-header">
+      <a class="brand" href={`/${locale}/`} aria-label="OurDream AI"><span class="brand-icon"><Icon name="heart" /></span><strong>OUR<span>DREAM</span> AI</strong></a>
+      <nav aria-label={label.workflow}>
+        <a href={`/${locale}/`}>{label.home}</a>
+        <a href={`/${locale}/#workflow`}>{label.workflow}</a>
+        <a href={`/${locale}/#compare`}>{label.compare}</a>
+        <a href={`/${locale}/blog/`}>{label.blog}</a>
+      </nav>
+      <details class="language-menu"><summary>{label.language} · {language.lang}</summary><div>{languages.map((item) => <a href={switchPath(item.slug)} lang={item.lang} aria-current={item.slug === locale ? "page" : undefined}>{item.label}</a>)}</div></details>
+      <button class="menu-button" type="button" aria-label={label.workflow} aria-expanded="false" data-menu-button><Icon name="menu" /></button>
+      <div class="mobile-nav" data-mobile-nav><a href={`/${locale}/`}>{label.home}</a><a href={`/${locale}/#workflow`}>{label.workflow}</a><a href={`/${locale}/#compare`}>{label.compare}</a><a href={`/${locale}/blog/`}>{label.blog}</a><a href={site.officialUrl} rel="noopener" target="_blank">{label.official}</a></div>
+    </header>
+    <main id="main"><slot /></main>
+    <footer>
+      <div class="footer-grid locale-footer">
+        <div><a class="brand" href={`/${locale}/`}><span class="brand-icon"><Icon name="heart" /></span><strong>OUR<span>DREAM</span> AI</strong></a><p>{label.independence}</p><p>{label.safety}</p></div>
+        <div><h3>{label.workflow}</h3><a href={`/${locale}/#workflow`}>{label.workflow}</a><a href={`/${locale}/#compare`}>{label.compare}</a><a href={site.officialUrl} rel="noopener" target="_blank">{label.official}</a></div>
+        <div><h3>{label.blog}</h3>{comparisons.map((item) => <a href={`/${locale}/blog/${articleSlug(item.slug)}/`}>OurDream AI vs {item.name}</a>)}</div>
+        <div><h3>{label.about}</h3>{infoSlugs.map((slug) => <a href={`/${locale}/${slug}/`}>{slug === "editorial-policy" ? label.editorial : label[slug]}</a>)}</div>
+      </div>
+      <div class="footer-bottom"><span>© 2026 OurDream AI</span><span>{label.independence}</span></div>
+      <nav class="locale-footer-languages" aria-label={label.language}>{languages.map((item) => <a href={switchPath(item.slug)} lang={item.lang} aria-current={item.slug === locale ? "page" : undefined}>{item.label}</a>)}</nav>
+    </footer>
+    <script is:inline src="/assets/main.js"></script>
+    <Analytics locale={locale} />
+  </body>
+</html>

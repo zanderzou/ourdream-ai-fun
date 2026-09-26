@@ -4,6 +4,7 @@ import { getCollection } from "astro:content";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import { site } from "../data/site";
+import { languageAlternates } from "../data/locales";
 import "../styles.css";
 interface Props {
   title: string; description: string; type?: "website" | "article"; keywords?: string[]; noindex?: boolean;
@@ -20,6 +21,8 @@ const robots = noindex ? "noindex,follow" : "index,follow,max-image-preview:larg
   <title>{title}</title><meta name="description" content={description} /><meta name="author" content={site.author} />
   {keywords.length > 0 && <meta name="keywords" content={keywords.join(", ")} />}
   <meta name="robots" content={robots} /><meta name="googlebot" content={robots} /><link rel="canonical" href={canonical} />
+  {!noindex && languageAlternates(Astro.url.pathname).map((entry) => <link rel="alternate" hreflang={entry.lang} href={new URL(entry.href, site.url).toString()} />)}
+  {!noindex && <link rel="alternate" hreflang="x-default" href={canonical} />}
   <link rel="alternate" type="application/rss+xml" title={`${site.name} RSS`} href="/rss.xml" /><link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <meta name="theme-color" content="#0d060c" /><meta property="og:type" content={type} /><meta property="og:site_name" content={site.name} /><meta property="og:locale" content="en_US" />
