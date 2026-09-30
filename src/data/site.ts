@@ -2,7 +2,7 @@ export const site = {
   name: "OurDream AI",
   domain: "ourdream-ai.fun",
   url: "https://ourdream-ai.fun",
-  description: "An independent OurDream AI guide to character creation, AI companion chat, story roleplay, privacy, pricing questions, and leading alternatives.",
+  description: "Independent OurDream AI comparisons covering character creation, AI companion chat, story roleplay, privacy, pricing questions, and alternatives.",
   author: "OurDream AI editorial team",
   officialUrl: "https://ourdream.ai/",
 };
