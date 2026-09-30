@@ -7,4 +7,23 @@ const check=(ok,message)=>{if(!ok)failures.push(message);};
 const target=(href)=>{const clean=href.split("#")[0].split("?")[0];if(!clean||!clean.startsWith("/"))return null;if(clean==="/")return path.join(out,"index.html");if(path.extname(clean))return path.join(out,clean);return path.join(out,clean,"index.html");};
 walk(out);const canonicals=new Map();for(const file of files){const rel=path.relative(out,file).replaceAll("\\","/");const html=readFileSync(file,"utf8");const title=html.match(/<title>(.*?)<\/title>/i)?.[1]?.trim();const desc=html.match(/<meta name="description" content="([^"]+)"/i)?.[1]?.trim();const lang=html.match(/<html\b[^>]*\blang="([^"]+)"/i)?.[1]??"en";const minDesc=/^(ja|ko|zh)/i.test(lang)?20:50;const canonical=html.match(/<link rel="canonical" href="([^"]+)"/i)?.[1];const h1=(html.match(/<h1(?:\s|>)/gi)??[]).length;check(Boolean(title),`${rel}: missing title`);check(Boolean(desc)&&desc.length>=minDesc&&desc.length<=240,`${rel}: description length`);check(Boolean(canonical?.startsWith("https://ourdream-ai.fun/")),`${rel}: canonical`);check(h1===1,`${rel}: expected one h1, got ${h1}`);check(/<meta name="robots"/i.test(html),`${rel}: robots`);check(/<meta property="og:image"/i.test(html),`${rel}: Open Graph`);if(canonical){check(!canonicals.has(canonical),`${rel}: duplicate canonical`);canonicals.set(canonical,rel);}for(const img of html.match(/<img\b[^>]*>/gi)??[])check(/\salt="[^"]+"/i.test(img),`${rel}: image alt`);for(const match of html.matchAll(/href="([^"]+)"/gi)){const item=target(match[1]);if(item)check(existsSync(item),`${rel}: broken ${match[1]}`);}}
 check(existsSync(path.join(out,"robots.txt")),"missing robots.txt");check(existsSync(path.join(out,"sitemap-index.xml")),"missing sitemap");check(existsSync(path.join(out,"rss.xml")),"missing rss");check(existsSync(path.join(out,"52e3c08f5fe34a30af309c3f13962b9a.txt")),"missing IndexNow key");
+const sourceHosts={"candy-ai":"candy.ai","crushon-ai":"crushon.ai",girlfriendgpt:"gptgirlfriend.online",lovescape:"lovescape.com",replika:"replika.com"};
+for(const [key,competitorHost] of Object.entries(sourceHosts)){
+  const route=`/blog/ourdream-ai-vs-${key}/`;
+  const file=path.join(out,"blog",`ourdream-ai-vs-${key}`,"index.html");
+  check(existsSync(file),`${route}: missing article`);
+  if(!existsSync(file))continue;
+  const html=readFileSync(file,"utf8");
+  const section=html.match(/<section\s+class="sources"\s+id="sources">([\s\S]*?)<\/section>/i)?.[1]??"";
+  const links=[...section.matchAll(/<a\b[^>]*href="([^"]+)"/gi)].map(([,href])=>href);
+  const hosts=links.filter(href=>href.startsWith("https://")).map(href=>new URL(href).host);
+  check(links.length>=3,`${route}: expected at least three direct source links`);
+  check(hosts.length===links.length&&!links.some(href=>href.includes("ref=zanderzou")),`${route}: source redirected or non-HTTPS`);
+  check(hosts.some(host=>host==="ourdream.ai"||host.endsWith(".ourdream.ai")),`${route}: missing direct OurDream source`);
+  check(hosts.some(host=>host===competitorHost||host.endsWith(`.${competitorHost}`)),`${route}: missing direct competitor source`);
+}
+const privacy=readFileSync(path.join(out,"privacy","index.html"),"utf8");
+check(/href="https:\/\/policies\.google\.com\/privacy"/.test(privacy),"Privacy: Google policy link must be direct");
+const home=readFileSync(path.join(out,"index.html"),"utf8");
+check(/Sponsored link:[\s\S]*?href="https:\/\/www\.playbox\.com\/\?ref=zanderzou"[^>]*rel="[^"]*sponsored\b[^"]*nofollow\b/i.test(home),"Home: affiliate link must be labeled sponsored and nofollow");
 if(failures.length){console.error(`SEO audit failed:\n- ${failures.join("\n- ")}`);process.exit(1);}console.log(`SEO audit passed for ${files.length} HTML pages.`);
