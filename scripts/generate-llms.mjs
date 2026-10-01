@@ -18,7 +18,7 @@ const articles=readdirSync(blog).filter(f=>f.endsWith('.md')).sort().map(f=>{
 const label=s=>s.replace(/[\[\]]/g,'');
 const links=[['Homepage','/','Overview and practical decision guidance.'],['Blog and comparisons','/blog/','Browse the editorial article collection.']];
 const optional=[['About','about'],['Editorial policy','editorial-policy'],['Contact','contact'],['Privacy policy','privacy'],['Terms','terms']].filter(([,slug])=>existsSync(path.join(pages,slug+'.astro'))||existsSync(path.join(pages,slug,'index.astro')));
-const localeLabels=[['ja','日本語'],['ko','한국어'],['zh-hant','繁體中文'],['es','Español'],['pt-br','Português do Brasil'],['ru','Русский'],['de','Deutsch'],['fr','Français'],['ar','العربية']];
+const localeLabels=[['es','Español']];
 const rivalSlugs=['candy-ai','crushon-ai','lovescape','girlfriendgpt','replika'];
 const infoSlugs=['about','contact','editorial-policy','privacy','terms'];
 const localizedLinks=localeLabels.flatMap(([slug,language])=>[
