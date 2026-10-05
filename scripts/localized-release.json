@@ -1,0 +1,26 @@
+{
+  "domain": "ourdream-ai.fun",
+  "keyword": "OurDream AI",
+  "languages": [
+    "ja",
+    "ko",
+    "zh-hant",
+    "es",
+    "pt-br",
+    "ru",
+    "de",
+    "fr",
+    "ar"
+  ],
+  "addLanguageFooter": false,
+  "metadataOverrides": {
+    "/zh-hant/blog/ourdream-ai-vs-girlfriendgpt/": "比較 OurDream AI 與 GirlfriendGPT 的角色探索、自建人物、對話及媒體用途，分開評估費用、延續性和作品權利。",
+    "/es/blog/": "Cinco comparativas de OurDream AI: descubrimiento de personajes, diálogo y creación visual, con criterios distintos según el objetivo y fuentes oficiales.",
+    "/ru/blog/": "Пять сравнений OurDream AI: поиск персонажей, диалог и визуальное творчество. Отдельные критерии по задаче и ссылки на официальные источники.",
+    "/fr/blog/": "Cinq comparatifs OurDream AI : découverte de personnages, dialogue et création visuelle, avec des critères par usage et des sources officielles."
+  },
+  "authorizedAt": "2026-10-05",
+  "exclude": [
+    "spicybox.fun"
+  ]
+}

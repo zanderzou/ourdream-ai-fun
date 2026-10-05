@@ -11,6 +11,18 @@ This is an independent editorial publication, not the official provider. Article
 - [Homepage](https://ourdream-ai.fun/): Overview and practical decision guidance.
 - [Blog and comparisons](https://ourdream-ai.fun/blog/): Browse the editorial article collection.
 
+## Language editions
+
+- [Japanese](https://ourdream-ai.fun/ja/): Localized homepage, publication pages, and five comparison articles.
+- [Korean](https://ourdream-ai.fun/ko/): Localized homepage, publication pages, and five comparison articles.
+- [Traditional Chinese](https://ourdream-ai.fun/zh-hant/): Localized homepage, publication pages, and five comparison articles.
+- [Spanish](https://ourdream-ai.fun/es/): Localized homepage, publication pages, and five comparison articles.
+- [Brazilian Portuguese](https://ourdream-ai.fun/pt-br/): Localized homepage, publication pages, and five comparison articles.
+- [Russian](https://ourdream-ai.fun/ru/): Localized homepage, publication pages, and five comparison articles.
+- [German](https://ourdream-ai.fun/de/): Localized homepage, publication pages, and five comparison articles.
+- [French](https://ourdream-ai.fun/fr/): Localized homepage, publication pages, and five comparison articles.
+- [Arabic](https://ourdream-ai.fun/ar/): Localized homepage, publication pages, and five comparison articles.
+
 ## Comparisons
 
 - [OurDream AI vs Candy AI: Which Character Workflow Fits?](https://ourdream-ai.fun/blog/ourdream-ai-vs-candy-ai/)

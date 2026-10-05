@@ -16,7 +16,8 @@
     "test:llms": "node scripts/generate-llms.mjs --check",
     "test:locales": "node scripts/audit-locales.mjs",
     "test:interactions": "node scripts/audit-interactions.mjs",
-    "prebuild": "npm run generate:llms"
+    "prebuild": "npm run generate:llms",
+    "postbuild": "node scripts/finalize-localized-release.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",
