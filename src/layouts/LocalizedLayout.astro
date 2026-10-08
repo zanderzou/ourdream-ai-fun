@@ -71,13 +71,13 @@ const robots = "index,follow,max-image-preview:large,max-snippet:-1,max-video-pr
       </nav>
       <details class="language-menu"><summary>{label.language} · {language.lang}</summary><div>{languages.map((item) => <a href={switchPath(item.slug)} lang={item.lang} aria-current={item.slug === locale ? "page" : undefined}>{item.label}</a>)}</div></details>
       <button class="menu-button" type="button" aria-label={label.workflow} aria-expanded="false" data-menu-button><Icon name="menu" /></button>
-      <div class="mobile-nav" data-mobile-nav><a href={`/${locale}/`}>{label.home}</a><a href={`/${locale}/#workflow`}>{label.workflow}</a><a href={`/${locale}/#compare`}>{label.compare}</a><a href={`/${locale}/blog/`}>{label.blog}</a><a href="https://www.playbox.com/?ref=zanderzou" rel="sponsored nofollow noopener noreferrer" target="_blank">{label.official}</a></div>
+      <div class="mobile-nav" data-mobile-nav><a href={`/${locale}/`}>{label.home}</a><a href={`/${locale}/#workflow`}>{label.workflow}</a><a href={`/${locale}/#compare`}>{label.compare}</a><a href={`/${locale}/blog/`}>{label.blog}</a><a href="https://spicy-box.com/?utm_ref=c546b6e92223b411" rel="sponsored nofollow noopener noreferrer" target="_blank">{label.official}</a></div>
     </header>
     <main id="main"><slot /></main>
     <footer>
       <div class="footer-grid locale-footer">
         <div><a class="brand" href={`/${locale}/`}><span class="brand-icon"><Icon name="heart" /></span><strong>OUR<span>DREAM</span> AI</strong></a><p>{label.independence}</p><p>{label.safety}</p></div>
-        <div><h3>{label.workflow}</h3><a href={`/${locale}/#workflow`}>{label.workflow}</a><a href={`/${locale}/#compare`}>{label.compare}</a><a href="https://www.playbox.com/?ref=zanderzou" rel="sponsored nofollow noopener noreferrer" target="_blank">{label.official}</a></div>
+        <div><h3>{label.workflow}</h3><a href={`/${locale}/#workflow`}>{label.workflow}</a><a href={`/${locale}/#compare`}>{label.compare}</a><a href="https://spicy-box.com/?utm_ref=c546b6e92223b411" rel="sponsored nofollow noopener noreferrer" target="_blank">{label.official}</a></div>
         <div><h3>{label.blog}</h3>{comparisons.map((item) => <a href={`/${locale}/blog/${articleSlug(item.slug)}/`}>OurDream AI vs {item.name}</a>)}</div>
         <div><h3>{label.about}</h3>{infoSlugs.map((slug) => <a href={`/${locale}/${slug}/`}>{slug === "editorial-policy" ? label.editorial : label[slug]}</a>)}</div>
       </div>
