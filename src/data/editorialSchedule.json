@@ -1,0 +1,94 @@
+{
+  "domain": "ourdream-ai.fun",
+  "timeZone": "Asia/Shanghai",
+  "policy": "New articles are English-only. Quality review is required before a date can enable a release. Existing publications are preserved.",
+  "articles": [
+    {
+      "order": 1,
+      "slug": "ourdream-vs-nomi-text-first-budget",
+      "title": "OurDream AI vs Nomi: A Text-First Monthly Budget",
+      "opponent": "Nomi",
+      "readerQuestion": "a text-first month versus a month containing optional media generation",
+      "releaseAt": "2026-10-08T05:22:21.471Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-10-08",
+      "reviewedSha256": "78cffb2ecdefcafcafd5cb132e8fb3df3ec254b4e42fac30f8333ddca9f5ce92",
+      "wordCount": 516,
+      "editorialIntent": "Build a comparable text-first spending plan without publishing unverified live prices.",
+      "sources": [
+        [
+          "OurDream Coin Cost Guide",
+          "https://help.ourdream.ai/en/articles/10808513"
+        ],
+        [
+          "OurDream Dreamcoins Guide",
+          "https://help.ourdream.ai/en/articles/7861249"
+        ],
+        [
+          "Nomi Additional Image Requests",
+          "https://wiki.nomi.ai/How_do_I_get_more_daily_selfie_or_art_requests%3F"
+        ]
+      ]
+    },
+    {
+      "order": 2,
+      "slug": "ourdream-vs-kindroid-story-canon",
+      "title": "OurDream AI vs Kindroid: Canon and Appearance",
+      "opponent": "Kindroid",
+      "readerQuestion": "keeping a fictional character’s written canon separate from image appearance",
+      "releaseAt": "2026-10-15T15:35:15.426Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-10-08",
+      "reviewedSha256": "35c8acf3aa40952fca1e35447ae9a908d7a028aefdd71ef1c30c9fe2048d4e6b",
+      "wordCount": 478,
+      "editorialIntent": "Evaluate an original character specification across written context and optional visual output.",
+      "sources": [
+        [
+          "OurDream Coin Cost Guide",
+          "https://help.ourdream.ai/en/articles/10808513"
+        ],
+        [
+          "OurDream Photo Upload Policy",
+          "https://help.ourdream.ai/en/articles/11104449"
+        ],
+        [
+          "Kindroid Personality Controls",
+          "https://kindroid.ai/v2/docs/customizing-personality/"
+        ]
+      ]
+    },
+    {
+      "order": 3,
+      "slug": "ourdream-vs-chai-phone-session",
+      "title": "OurDream AI vs CHAI: A Short Phone Session",
+      "opponent": "CHAI",
+      "readerQuestion": "a multimedia account versus a lightweight phone conversation",
+      "releaseAt": "2026-10-22T16:25:07.551Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-10-08",
+      "reviewedSha256": "8c04ec86100b4db983fa65c03f9e263692fb57b58cbb43066a7992708d27dc49",
+      "wordCount": 485,
+      "editorialIntent": "Evaluate a short mobile conversation with clear source, return and spending checks.",
+      "sources": [
+        [
+          "OurDream Coin Cost Guide",
+          "https://help.ourdream.ai/en/articles/10808513"
+        ],
+        [
+          "CHAI Official Website",
+          "https://www.chai-research.com/"
+        ],
+        [
+          "CHAI Google Play Listing",
+          "https://play.google.com/store/apps/details?id=com.Beauchamp.Messenger.external"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,3 +1,5 @@
+import editorialSchedule from './editorialSchedule.json';
+const englishEditorialSlugs = new Set(editorialSchedule.articles.map((item) => item.slug));
 export const locales = [
   {"slug":"ja","lang":"ja","label":"日本語"},
   {"slug":"ko","lang":"ko","label":"한국어"},
