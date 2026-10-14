@@ -61,3 +61,14 @@ footer{margin-top:100px;border-top:1px solid var(--line);background:#060305}.foo
 .section-head>p{max-width:none;width:100%;margin:8px 0 0;line-height:1.5}
 @media(max-width:600px){.section{padding-top:24px!important;padding-bottom:24px!important}.section-head{margin-bottom:18px!important}.section-head h2{font-size:clamp(1.7rem,7vw,2.15rem)!important;overflow-wrap:break-word}}
 .section-head h2 span{display:inline}
+
+/* Show the visit action after the short hook, ahead of the longer overview. */
+@media(max-width:640px){
+ .hero-copy{display:flex;flex-direction:column}
+ .hero-copy>.kicker{order:0}
+ .hero-copy>h1{order:1}
+ .hero-copy>.hero-tagline{order:2}
+ .hero-copy>.hero-actions{order:3;margin-top:24px}
+ .hero-copy>p:not(.hero-tagline){order:4;margin-top:24px}
+ .hero-copy>.hero-trust{order:5}
+}
