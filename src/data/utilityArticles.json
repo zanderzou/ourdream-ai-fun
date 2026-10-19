@@ -1,0 +1,12 @@
+{
+  "domain": "ourdream-ai.fun",
+  "label": "ourdream-ai.fun",
+  "origin": "https://ourdream-ai.fun",
+  "slugs": [
+    "ourdream-cancel-subscription-confirm-end-date",
+    "ourdream-delete-account-public-character-retention"
+  ],
+  "articlePrefix": "/blog/",
+  "homePath": "/",
+  "blogPath": "/blog/"
+}

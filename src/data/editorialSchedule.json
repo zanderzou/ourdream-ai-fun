@@ -1,7 +1,7 @@
 {
   "domain": "ourdream-ai.fun",
   "timeZone": "Asia/Shanghai",
-  "policy": "New articles are English-only. Quality review is required before a date can enable a release. Existing publications are preserved.",
+  "policy": "Only reviewed English guides are added. Existing releases and translations are preserved. Server time controls availability.",
   "articles": [
     {
       "order": 1,
@@ -89,6 +89,57 @@
           "https://play.google.com/store/apps/details?id=com.Beauchamp.Messenger.external"
         ]
       ]
+    },
+    {
+      "order": 4,
+      "slug": "ourdream-cancel-subscription-confirm-end-date",
+      "title": "Cancel OurDream AI: Confirm Renewal Stops and Keep the End Date",
+      "readerQuestion": "Stop a recurring subscription and confirm the resulting billing state without deleting the account by mistake.",
+      "releaseAt": "2026-10-30T12:38:00.551Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-10-19",
+      "reviewedSha256": "8f8483608e0d353c93987a0fb27f17b3c08595bb459c5c495c766fdaf8d9c740",
+      "wordCount": 429,
+      "editorialIntent": "A cancellation completion record that distinguishes renewal, access, refund and account state.",
+      "sources": [
+        [
+          "OurDream: canceling a subscription",
+          "https://help.ourdream.ai/en/articles/7617729"
+        ],
+        [
+          "OurDream: refund requests, February 13, 2026",
+          "https://help.ourdream.ai/en/articles/8717377"
+        ]
+      ]
+    },
+    {
+      "order": 5,
+      "slug": "ourdream-delete-account-public-character-retention",
+      "title": "Delete an OurDream Account: Scope, Finality and Public Characters",
+      "readerQuestion": "Understand deletion scope and permanence before submitting an account-removal request.",
+      "releaseAt": "2026-11-06T21:56:10.551Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-10-19",
+      "reviewedSha256": "3e9182ba53285023632c3cf57c77f4cff742b60b30ec2c78af5e3b6d5a77e8df",
+      "wordCount": 448,
+      "editorialIntent": "A distinction between account access, private material, public character retention and separate device copies.",
+      "sources": [
+        [
+          "OurDream: account deletion, August 3, 2026",
+          "https://help.ourdream.ai/en/articles/8717633"
+        ],
+        [
+          "OurDream: privacy policy, August 26, 2026",
+          "https://main.ourdream.ai/terms/privacy-policy"
+        ]
+      ]
     }
-  ]
+  ],
+  "baselinePhase": 1,
+  "articlePrefix": "/blog/",
+  "contentDirectory": "src/content/blog"
 }
