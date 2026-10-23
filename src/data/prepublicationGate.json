@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "domain": "ourdream-ai.fun",
+  "grandfathered": [
+    {
+      "order": 1,
+      "slug": "ourdream-vs-nomi-text-first-budget",
+      "releaseAt": "2026-10-08T05:22:21.471Z",
+      "status": 200,
+      "liveVerifiedAt": "2026-10-23T05:20:06.922Z",
+      "canonical": "https://ourdream-ai.fun/blog/ourdream-vs-nomi-text-first-budget/",
+      "language": "en",
+      "titleMatches": true,
+      "discoveryVerified": true,
+      "sourceCommit": "838e0d3667c2ceddb5f9005007beaaf11ff45687",
+      "deploymentId": "613bf02c-2d8e-4816-95ef-a34b6a3d51fe",
+      "responseSha256": "f66c15c394a1513656914d62fdd3600068ae1f2f45f3a9092ad2af4c076e8479"
+    },
+    {
+      "order": 2,
+      "slug": "ourdream-vs-kindroid-story-canon",
+      "releaseAt": "2026-10-15T15:35:15.426Z",
+      "status": 200,
+      "liveVerifiedAt": "2026-10-23T05:20:06.923Z",
+      "canonical": "https://ourdream-ai.fun/blog/ourdream-vs-kindroid-story-canon/",
+      "language": "en",
+      "titleMatches": true,
+      "discoveryVerified": true,
+      "sourceCommit": "838e0d3667c2ceddb5f9005007beaaf11ff45687",
+      "deploymentId": "613bf02c-2d8e-4816-95ef-a34b6a3d51fe",
+      "responseSha256": "7bae0a610843dd333bae276326c9a7b4bea7820703313923883639386c5b864f"
+    },
+    {
+      "order": 3,
+      "slug": "ourdream-vs-chai-phone-session",
+      "releaseAt": "2026-10-22T16:25:07.551Z",
+      "status": 200,
+      "liveVerifiedAt": "2026-10-23T05:20:06.923Z",
+      "canonical": "https://ourdream-ai.fun/blog/ourdream-vs-chai-phone-session/",
+      "language": "en",
+      "titleMatches": true,
+      "discoveryVerified": true,
+      "sourceCommit": "838e0d3667c2ceddb5f9005007beaaf11ff45687",
+      "deploymentId": "613bf02c-2d8e-4816-95ef-a34b6a3d51fe",
+      "responseSha256": "36249f871a3d094affee67ba6cd8adc774b93285f0649626881c7cc4ff98a63f"
+    }
+  ],
+  "certificates": {}
+}
