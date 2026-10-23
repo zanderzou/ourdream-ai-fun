@@ -25,5 +25,5 @@ for(const [key,competitorHost] of Object.entries(sourceHosts)){
 const privacy=readFileSync(path.join(out,"privacy","index.html"),"utf8");
 check(/href="https:\/\/policies\.google\.com\/privacy"/.test(privacy),"Privacy: Google policy link must be direct");
 const home=readFileSync(path.join(out,"index.html"),"utf8");
-check(/Sponsored link:[\s\S]*?href="https:\/\/www\.playbox\.com\/\?ref=zanderzou"[^>]*rel="[^"]*sponsored\b[^"]*nofollow\b/i.test(home),"Home: affiliate link must be labeled sponsored and nofollow");
+check(/Sponsored link:[\s\S]*?href="https:\/\/spicy-box\.com\/\?utm_ref=6cc1a8f534d264bd"[^>]*rel="[^"]*sponsored\b[^"]*nofollow\b/i.test(home),"Home: affiliate link must be labeled sponsored and nofollow");
 if(failures.length){console.error(`SEO audit failed:\n- ${failures.join("\n- ")}`);process.exit(1);}console.log(`SEO audit passed for ${files.length} HTML pages.`);
