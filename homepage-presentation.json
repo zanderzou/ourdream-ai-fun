@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "domain": "ourdream-ai.fun",
+  "layout": false,
+  "promotionalUrls": [
+    "https://spicy-box.com/?utm_ref=6cc1a8f534d264bd"
+  ],
+  "footerRemoveIndices": [
+    1
+  ],
+  "footerByLang": {
+    "ar": {
+      "count": 2,
+      "removeIndices": [
+        1
+      ]
+    },
+    "de": {
+      "count": 2,
+      "removeIndices": [
+        1
+      ]
+    },
+    "es": {
+      "count": 2,
+      "removeIndices": [
+        1
+      ]
+    },
+    "fr": {
+      "count": 2,
+      "removeIndices": [
+        1
+      ]
+    },
+    "en": {
+      "count": 2,
+      "removeIndices": [
+        1
+      ]
+    },
+    "ja": {
+      "count": 2,
+      "removeIndices": [
+        1
+      ]
+    },
+    "ko": {
+      "count": 2,
+      "removeIndices": [
+        1
+      ]
+    },
+    "pt-BR": {
+      "count": 2,
+      "removeIndices": [
+        1
+      ]
+    },
+    "ru": {
+      "count": 2,
+      "removeIndices": [
+        1
+      ]
+    },
+    "zh-Hant": {
+      "count": 2,
+      "removeIndices": [
+        1
+      ]
+    }
+  },
+  "scope": "Only redundant shared-footer promotion copy, homepage source panels/inline provider links, forced homepage heading breaks and narrow heading/intro widths. Article content and publication state are preserved.",
+  "footerRemoveTexts": [
+    "استخدم شخصيات خيالية واضحة البلوغ ومواداً مأذوناً بها فقط، ولا تُدخل أسرار أشخاص حقيقيين.",
+    "Verwenden Sie nur eindeutig erwachsene erfundene Figuren und zulässiges Material; geben Sie keine Daten realer Personen preis.",
+    "Usa personajes ficticios claramente adultos y materiales autorizados; no compartas datos sensibles de personas reales.",
+    "Utilisez seulement des personnages fictifs clairement adultes et des ressources autorisées ; évitez les données sensibles de personnes réelles.",
+    "Sponsored link: Get Started ↗. Our comparisons remain independent.",
+    "成人の架空人物と許可を得た素材のみを使い、実在者の秘密を入力しないでください。",
+    "명확한 성인 가상 인물과 사용 허가를 받은 자료만 쓰고 실제 사람의 민감한 정보는 입력하지 마세요.",
+    "Use personagens fictícios claramente adultos e materiais autorizados; não informe dados sensíveis de pessoas reais.",
+    "Используйте только явно совершеннолетних вымышленных героев и разрешённые материалы; не раскрывайте личные тайны реальных людей.",
+    "只使用明確成年、虛構的人物及獲授權素材，避免輸入真人的私密資料。",
+    "Sponsored link: Playbox. Our comparisons remain independent."
+  ]
+}
