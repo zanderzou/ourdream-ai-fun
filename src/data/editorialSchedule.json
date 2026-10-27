@@ -99,7 +99,7 @@
       "language": "en",
       "approved": true,
       "status": "editorially-reviewed",
-      "sourcesCheckedAt": "2026-10-19",
+      "sourcesCheckedAt": "2026-10-27",
       "reviewedSha256": "8f8483608e0d353c93987a0fb27f17b3c08595bb459c5c495c766fdaf8d9c740",
       "wordCount": 429,
       "editorialIntent": "A cancellation completion record that distinguishes renewal, access, refund and account state.",
@@ -136,7 +136,9 @@
           "OurDream: privacy policy, August 26, 2026",
           "https://main.ourdream.ai/terms/privacy-policy"
         ]
-      ]
+      ],
+      "notBefore": "2026-11-06T21:56:10.551Z",
+      "scheduleNote": "Keep approximately weekly spacing after the previous effective publication; original planned releaseAt retained."
     }
   ],
   "baselinePhase": 1,

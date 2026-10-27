@@ -1,0 +1,16 @@
+{
+  "domain": "ourdream-ai.fun",
+  "slug": "ourdream-cancel-subscription-confirm-end-date",
+  "reviewedAt": "2026-10-27T14:33:18.503Z",
+  "standard": "portfolio-basic-quality-20261027",
+  "contentSha256": "8f8483608e0d353c93987a0fb27f17b3c08595bb459c5c495c766fdaf8d9c740",
+  "decision": "Official cancellation and refund guides confirm the profile cancellation route, access to billing-period end and separate refund request; account deletion stays distinct. Current draft makes no credit-expiry guarantee and clearly describes documentation rather than a paid-account test. Pass unchanged.",
+  "materialChanges": false,
+  "limitations": "Sourced informational guide with clearly illustrative examples; no account, generation, billing, deletion or performance operation claimed.",
+  "sources": [
+    "https://help.ourdream.ai/en/articles/7617729",
+    "https://help.ourdream.ai/en/articles/8717377"
+  ],
+  "activationAt": "2026-10-30T12:38:00.551Z",
+  "originalPlan": "2026-10-30T12:38:00.551Z"
+}

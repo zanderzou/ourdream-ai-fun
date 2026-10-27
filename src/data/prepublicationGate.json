@@ -45,5 +45,59 @@
       "responseSha256": "36249f871a3d094affee67ba6cd8adc774b93285f0649626881c7cc4ff98a63f"
     }
   ],
-  "certificates": {}
+  "certificates": {
+    "ourdream-cancel-subscription-confirm-end-date": {
+      "schemaVersion": 1,
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "domain": "ourdream-ai.fun",
+      "slug": "ourdream-cancel-subscription-confirm-end-date",
+      "order": 4,
+      "releaseAt": "2026-10-30T12:38:00.551Z",
+      "activationAt": "2026-10-30T12:38:00.551Z",
+      "reviewedAt": "2026-10-27T14:33:18.503Z",
+      "factsCheckedAt": "2026-10-27T14:33:18.503Z",
+      "reviewedBy": "Codex independent article and primary-source review under October27 project override",
+      "contentSha256": "8f8483608e0d353c93987a0fb27f17b3c08595bb459c5c495c766fdaf8d9c740",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Official cancellation and refund guides confirm the profile cancellation route, access to billing-period end and separate refund request; account deletion stays distinct. Current draft makes no credit-expiry guarantee and clearly describes documentation rather than a paid-account test. Pass unchanged."
+      },
+      "observations": [],
+      "officialSources": [
+        {
+          "url": "https://help.ourdream.ai/en/articles/7617729",
+          "checkedAt": "2026-10-27T14:29:03.665Z",
+          "status": 200,
+          "claim": "Official cancellation and refund guides confirm the profile cancellation route, access to billing-period end and separate refund request; account deletion stays distinct. Current draft makes no credit-expiry guarantee and clearly describes documentation rather than a paid-account test. Pass unchanged.",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/basic-review-20261027-142621/source-fd5a7558a5da3f84.json",
+              "sha256": "480a1aa389734f2511d6aa9a15961752c33cc40de51d064076a4ad5f08a31e21"
+            }
+          ]
+        },
+        {
+          "url": "https://help.ourdream.ai/en/articles/8717377",
+          "checkedAt": "2026-10-27T14:29:03.428Z",
+          "status": 200,
+          "claim": "Official cancellation and refund guides confirm the profile cancellation route, access to billing-period end and separate refund request; account deletion stays distinct. Current draft makes no credit-expiry guarantee and clearly describes documentation rather than a paid-account test. Pass unchanged.",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/basic-review-20261027-142621/source-b44ff6ec34a685b0.json",
+              "sha256": "59a617e0f37a8d1866341ef79a867ab329f888fcfdc9c2c4ec44654318e26d9c"
+            }
+          ]
+        }
+      ],
+      "certificateDigest": "3383e03d8ee9bf00f67da792686951cc83430edb8c382e8ab395716e8141d7c9"
+    }
+  }
 }
