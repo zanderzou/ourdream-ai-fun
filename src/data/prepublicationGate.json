@@ -98,6 +98,67 @@
         }
       ],
       "certificateDigest": "3383e03d8ee9bf00f67da792686951cc83430edb8c382e8ab395716e8141d7c9"
+    },
+    "ourdream-delete-account-public-character-retention": {
+      "schemaVersion": 1,
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "domain": "ourdream-ai.fun",
+      "slug": "ourdream-delete-account-public-character-retention",
+      "order": 5,
+      "releaseAt": "2026-11-06T21:56:10.551Z",
+      "activationAt": "2026-11-06T21:56:10.551Z",
+      "reviewedAt": "2026-11-04T10:06:04.269Z",
+      "factsCheckedAt": "2026-11-04T09:58:36.815Z",
+      "reviewedBy": "Codex primary-source and independent final editorial review under October27human override",
+      "contentSha256": "3e9182ba53285023632c3cf57c77f4cff742b60b30ec2c78af5e3b6d5a77e8df",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Useful source-attributed guide keeps permanent account deletion distinct from public-character retention and separately controlled copies. It correctly attributes profile Danger Zone to the deletion help article and section9 to the privacy policy, makes no legal deadline promise, and explicitly says deletion/restoration was not tested."
+      },
+      "observations": [],
+      "officialSources": [
+        {
+          "url": "https://help.ourdream.ai/en/articles/8717633",
+          "status": "content-retrieved",
+          "checkedAt": "2026-11-04T09:58:35.960Z",
+          "claim": "The actual current original account-deletion help article supports finality, affected data, Danger Zone route and fresh-account limits. Its publisher date remainsAugust3,2026.",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/basic-review-20261104-095234/2f3bf8f8c34e3fba82b5.json",
+              "sha256": "e11db13e67e1dac210850d02a387d874693120bd5d46268cd1ff5fae0494c843"
+            },
+            {
+              "path": "private-editorial-evidence/basic-review-20261104-095234/2f3bf8f8c34e3fba82b5.html",
+              "sha256": "4c7be8f2ed7568ba908915b03e5687354f2d303c437dcc5d03309de5b8a4d408"
+            }
+          ]
+        },
+        {
+          "url": "https://main.ourdream.ai/terms/privacy-policy",
+          "status": "content-retrieved",
+          "checkedAt": "2026-11-04T09:58:36.815Z",
+          "claim": "The actual current privacy policy supports the popular public-character retention exception in section9. Its Last Modified date remainsAugust26,2026.",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/basic-review-20261104-095234/4c1e9d2e4874be0d158d.json",
+              "sha256": "8665510c04e4e85d14bc755bb0a3d9860d071a703be60420bfd808c940e80a0c"
+            },
+            {
+              "path": "private-editorial-evidence/basic-review-20261104-095234/4c1e9d2e4874be0d158d.html",
+              "sha256": "6ca765d89e5acf52e0311881fb6fc3b05dc5e9b4b8ccc14ecd53ee2cd61cea5f"
+            }
+          ]
+        }
+      ],
+      "certificateDigest": "fa8acf3390ff37a820b1994a9048c032b4f24d9098249a0cdb9c1857dfd92518"
     }
   }
 }

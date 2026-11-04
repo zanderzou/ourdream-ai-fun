@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-04T10:01:55.680Z",
+  "reviewer": "Codex independent source-review child group B",
+  "reviewStandard": "portfolio-basic-quality-20261027",
+  "skill": {
+    "name": "write-tested-seo",
+    "version": "1.5",
+    "humanOverride": "Useful truthful sourced information guides need no forced product testing or rigid24h certificate."
+  },
+  "domain": "ourdream-ai.fun",
+  "slug": "ourdream-delete-account-public-character-retention",
+  "file": "src/editorial-drafts/ourdream-delete-account-public-character-retention.md",
+  "sourceCommit": "bf9cffd67d3f643fe4c9ebd7ea0ae5b8d9a6c03a",
+  "productionAtVerifiedInventory": {
+    "id": "60cf2993-76fe-4394-843e-0ece271b5d7d",
+    "url": "https://60cf2993.ourdream-ai-fun.pages.dev",
+    "commit": "bf9cffd67d3f643fe4c9ebd7ea0ae5b8d9a6c03a",
+    "sourceShaRaw": "bf9cffd67d3f643fe4c9ebd7ea0ae5b8d9a6c03a",
+    "createdAt": "2026-10-29T13:23:30.918434Z"
+  },
+  "originalContentSha256": "3e9182ba53285023632c3cf57c77f4cff742b60b30ec2c78af5e3b6d5a77e8df",
+  "rawContentSha256": "3e9182ba53285023632c3cf57c77f4cff742b60b30ec2c78af5e3b6d5a77e8df",
+  "finalRecommendedContentSha256": "3e9182ba53285023632c3cf57c77f4cff742b60b30ec2c78af5e3b6d5a77e8df",
+  "finalContentSha256": "3e9182ba53285023632c3cf57c77f4cff742b60b30ec2c78af5e3b6d5a77e8df",
+  "finalCopy": "source-reviews/ourdream-ai.fun/ourdream-delete-account-public-character-retention-recommended-final.md",
+  "contentModified": false,
+  "requiredContentChanges": [],
+  "basicQualityPassed": true,
+  "readerIntent": "Understand permanent OurDream account deletion alongside the public-character retention provision, with a scoped private support question before irreversible action.",
+  "editorialSummary": "Useful source-attributed guide keeps permanent account deletion distinct from public-character retention and separately controlled copies. It correctly attributes profile Danger Zone to the deletion help article and section9 to the privacy policy, makes no legal deadline promise, and explicitly says deletion/restoration was not tested.",
+  "checks": {
+    "clearReaderQuestion": true,
+    "usefulConcreteGuidance": true,
+    "readableEnglish": true,
+    "keyClaimsSupported": true,
+    "honestLimits": true,
+    "noInventedExperience": true,
+    "originalDatesPreserved": true,
+    "originalUrlsPreserved": true
+  },
+  "claimReview": [
+    {
+      "articleClaim": "The deletion guide lists permanent loss of generations, unpublished characters, chat history, unused coins and account access.",
+      "assessment": "Supported by the corresponding current original primary source or a bounded logical distinction; no actual product test asserted."
+    },
+    {
+      "articleClaim": "The guide directs deletion requests through the profile Danger Zone and says a new account starts without old data.",
+      "assessment": "Supported by the corresponding current original primary source or a bounded logical distinction; no actual product test asserted."
+    },
+    {
+      "articleClaim": "The privacy policy section9 reserves an exception for sufficiently popular public characters without a universal numeric threshold.",
+      "assessment": "Supported by the corresponding current original primary source or a bounded logical distinction; no actual product test asserted."
+    }
+  ],
+  "officialSources": [
+    {
+      "url": "https://help.ourdream.ai/en/articles/8717633",
+      "status": 200,
+      "checkedAt": "2026-11-04T09:58:35.960Z",
+      "bodySha256": "4c7be8f2ed7568ba908915b03e5687354f2d303c437dcc5d03309de5b8a4d408",
+      "bodyEvidence": "source-reviews/ourdream-ai.fun/2f3bf8f8c34e3fba82b5.html",
+      "evidence": "source-reviews/ourdream-ai.fun/2f3bf8f8c34e3fba82b5.json",
+      "evidenceSha256": "e11db13e67e1dac210850d02a387d874693120bd5d46268cd1ff5fae0494c843",
+      "actualPrimaryTextRead": true,
+      "claim": "The actual current original account-deletion help article supports finality, affected data, Danger Zone route and fresh-account limits. Its publisher date remainsAugust3,2026."
+    },
+    {
+      "url": "https://main.ourdream.ai/terms/privacy-policy",
+      "status": 200,
+      "checkedAt": "2026-11-04T09:58:36.815Z",
+      "bodySha256": "6ca765d89e5acf52e0311881fb6fc3b05dc5e9b4b8ccc14ecd53ee2cd61cea5f",
+      "bodyEvidence": "source-reviews/ourdream-ai.fun/4c1e9d2e4874be0d158d.html",
+      "evidence": "source-reviews/ourdream-ai.fun/4c1e9d2e4874be0d158d.json",
+      "evidenceSha256": "8665510c04e4e85d14bc755bb0a3d9860d071a703be60420bfd808c940e80a0c",
+      "actualPrimaryTextRead": true,
+      "claim": "The actual current privacy policy supports the popular public-character retention exception in section9. Its Last Modified date remainsAugust26,2026."
+    }
+  ],
+  "limits": [
+    "No account deletion, support submission, restoration or subscription operation was performed.",
+    "The deletion help page and privacy policy describe routes separately; the article attributes the profile Danger Zone route to the help guide, not a personally verified current UI.",
+    "No claim is made that the service deletes device downloads, third-party screenshots or other cloud copies."
+  ],
+  "approvalCertificateOrRepositoryChangesPerformed": false,
+  "changeType": "none",
+  "materialRevision": false,
+  "metadataRevision": false,
+  "finalWordCount": 448,
+  "parentReviewedAt": "2026-11-04T10:06:04.268Z",
+  "parentReview": "Final copy and actual current primary-source evidence reviewed independently. Informational guidance under the October27basic standard; no invented account/product/payment test.",
+  "currentPublicPrefixBeforeBuild": {
+    "source": "bf9cffd67d3f643fe4c9ebd7ea0ae5b8d9a6c03a",
+    "production": {
+      "id": "60cf2993-76fe-4394-843e-0ece271b5d7d",
+      "url": "https://60cf2993.ourdream-ai-fun.pages.dev",
+      "commit": "bf9cffd67d3f643fe4c9ebd7ea0ae5b8d9a6c03a",
+      "sourceShaRaw": "bf9cffd67d3f643fe4c9ebd7ea0ae5b8d9a6c03a",
+      "createdAt": "2026-10-29T13:23:30.918434Z"
+    },
+    "phase": 4,
+    "proof": "Separate actual baseline-readback.json, four saved200HTML predecessors, discovery andprivate5 proof; existinggrandfather1..3 andbasic4certificate retained."
+  }
+}
