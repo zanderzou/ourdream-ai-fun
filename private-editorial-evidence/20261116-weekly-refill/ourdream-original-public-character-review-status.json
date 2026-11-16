@@ -1,0 +1,43 @@
+{
+  "domain": "ourdream-ai.fun",
+  "slug": "ourdream-original-public-character-review-status",
+  "order": 6,
+  "reviewedAt": "2026-11-16T11:24:33.383Z",
+  "factsCheckedAt": "2026-11-16T11:24:12Z",
+  "contentSha256": "577281843d99eb8ee552254f3ad3565a9e9702aec9c6816044234cefcb9abf81",
+  "reviewStandard": "portfolio-basic-quality-20261027",
+  "releaseAt": "2026-11-17T09:00:00.000Z",
+  "readerQuestion": "Why might an OurDream character I created be missing from the public list?",
+  "applicableClaims": [
+    {
+      "name": "OurDream public character review",
+      "url": "https://help.ourdream.ai/en/articles/7617601",
+      "note": "States that characters undergo review before public listing, and provides a support path."
+    },
+    {
+      "name": "OurDream unavailable public characters",
+      "url": "https://help.ourdream.ai/en/articles/7617857",
+      "note": "Lists example reasons for a character no longer being publicly accessible."
+    },
+    {
+      "name": "OurDream terms of service",
+      "url": "https://ourdream.ai/terms/terms-of-service",
+      "note": "Defines the operator's access, purchases and content rules; no offer terms or discounts inferred from the terms."
+    }
+  ],
+  "exampleType": "Original illustrative workflow",
+  "proofOfExistingPublicPrefix": "research/prepublish-tested-seo-20261023/runs/2026-11-16-weekly-refill/sites/ourdream-ai.fun/baseline.json",
+  "illustration": {
+    "path": "public/assets/editorial-ourdream-original-public-character-review-status.png",
+    "sha256": "c7c43f2e791c13f59df920d39f2641eb5099522bb90ab3e840489e61e7e51776",
+    "type": "Original editorial diagram",
+    "alt": "Record which character you submitted. Check the latest review status. Confirm the shared route."
+  },
+  "editorialReview": {
+    "readerAction": "Prepare the original adult character's details and verify publication before circulating the link.",
+    "wordCount": 153,
+    "factBasis": "Primary sources and an explicitly fictional example. No product operation is claimed.",
+    "sourceLinksKeptInPrivateEvidence": true,
+    "productionReview": "The compiled Worker, all release boundaries and formal site are checked separately."
+  }
+}

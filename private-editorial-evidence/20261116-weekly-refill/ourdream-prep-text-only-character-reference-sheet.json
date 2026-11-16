@@ -1,0 +1,38 @@
+{
+  "domain": "ourdream-ai.fun",
+  "slug": "ourdream-prep-text-only-character-reference-sheet",
+  "order": 7,
+  "reviewedAt": "2026-11-16T11:24:33.383Z",
+  "factsCheckedAt": "2026-11-16T11:24:12Z",
+  "contentSha256": "99db761d93c4caade5bbc6c1ec75b1fec56c54244a9f970a449ef67db9e52790",
+  "reviewStandard": "portfolio-basic-quality-20261027",
+  "releaseAt": "2026-11-24T09:00:00.000Z",
+  "readerQuestion": "How can I keep a consistent OurDream design when reference photo uploads are unavailable?",
+  "applicableClaims": [
+    {
+      "name": "OurDream reference-photo rules",
+      "url": "https://help.ourdream.ai/en/articles/11104449",
+      "note": "States that reference photo upload is prohibited. Examples rely on invented textual descriptions."
+    },
+    {
+      "name": "OurDream prompt-writing help",
+      "url": "https://help.ourdream.ai/en/articles/8747009",
+      "note": "Describes concrete prompts, lighting and composition, and returning to successful prompt elements despite output variability."
+    }
+  ],
+  "exampleType": "Original illustrative workflow",
+  "proofOfExistingPublicPrefix": "research/prepublish-tested-seo-20261023/runs/2026-11-16-weekly-refill/sites/ourdream-ai.fun/baseline.json",
+  "illustration": {
+    "path": "public/assets/editorial-ourdream-prep-text-only-character-reference-sheet.png",
+    "sha256": "81399ce55e763f7b326ce19353ecbdd2200d12451df2f6a6ff5910dda2e8ba6d",
+    "type": "Original editorial diagram",
+    "alt": "Choose two stable visual details. Separate changing scene inputs. Save the exact wording."
+  },
+  "editorialReview": {
+    "readerAction": "Specify the original adult character's clothing, silhouette and setting without using a reference photo.",
+    "wordCount": 148,
+    "factBasis": "Primary sources and an explicitly fictional example. No product operation is claimed.",
+    "sourceLinksKeptInPrivateEvidence": true,
+    "productionReview": "The compiled Worker, all release boundaries and formal site are checked separately."
+  }
+}

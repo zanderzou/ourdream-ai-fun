@@ -139,6 +139,89 @@
       ],
       "notBefore": "2026-11-06T21:56:10.551Z",
       "scheduleNote": "Keep approximately weekly spacing after the previous effective publication; original planned releaseAt retained."
+    },
+    {
+      "order": 6,
+      "slug": "ourdream-original-public-character-review-status",
+      "title": "Check the Status of an OurDream Character You Want to Share",
+      "readerQuestion": "Why might an OurDream character I created be missing from the public list?",
+      "releaseAt": "2026-11-17T09:00:00.000Z",
+      "notBefore": "2026-11-17T09:00:00.000Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-11-16",
+      "reviewedSha256": "577281843d99eb8ee552254f3ad3565a9e9702aec9c6816044234cefcb9abf81",
+      "wordCount": 153,
+      "editorialIntent": "Prepare the original adult character's details and verify publication before circulating the link.",
+      "sources": [
+        [
+          "OurDream public character review",
+          "https://help.ourdream.ai/en/articles/7617601"
+        ],
+        [
+          "OurDream unavailable public characters",
+          "https://help.ourdream.ai/en/articles/7617857"
+        ],
+        [
+          "OurDream terms of service",
+          "https://ourdream.ai/terms/terms-of-service"
+        ]
+      ]
+    },
+    {
+      "order": 7,
+      "slug": "ourdream-prep-text-only-character-reference-sheet",
+      "title": "Write a Text-Only Reference Sheet for an OurDream Character",
+      "readerQuestion": "How can I keep a consistent OurDream design when reference photo uploads are unavailable?",
+      "releaseAt": "2026-11-24T09:00:00.000Z",
+      "notBefore": "2026-11-24T09:00:00.000Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-11-16",
+      "reviewedSha256": "99db761d93c4caade5bbc6c1ec75b1fec56c54244a9f970a449ef67db9e52790",
+      "wordCount": 148,
+      "editorialIntent": "Specify the original adult character's clothing, silhouette and setting without using a reference photo.",
+      "sources": [
+        [
+          "OurDream reference-photo rules",
+          "https://help.ourdream.ai/en/articles/11104449"
+        ],
+        [
+          "OurDream prompt-writing help",
+          "https://help.ourdream.ai/en/articles/8747009"
+        ]
+      ]
+    },
+    {
+      "order": 8,
+      "slug": "ourdream-shared-character-link-no-longer-opens",
+      "title": "Trace an OurDream Character Link That Stopped Opening",
+      "readerQuestion": "What should I check if an older OurDream character link stops opening?",
+      "releaseAt": "2026-12-01T09:00:00.000Z",
+      "notBefore": "2026-12-01T09:00:00.000Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-11-16",
+      "reviewedSha256": "f8dea1c08acc6221515b3f74fb2801fd8ca79edbb50cade31f07991550c816dc",
+      "wordCount": 158,
+      "editorialIntent": "Identify the character and check the operator's visibility explanations before deciding what to preserve.",
+      "sources": [
+        [
+          "OurDream unavailable public characters",
+          "https://help.ourdream.ai/en/articles/7617857"
+        ],
+        [
+          "OurDream public character review",
+          "https://help.ourdream.ai/en/articles/7617601"
+        ],
+        [
+          "OurDream community-written FAQ hosted by the operator",
+          "https://help.ourdream.ai/en/articles/8993665"
+        ]
+      ]
     }
   ],
   "baselinePhase": 1,

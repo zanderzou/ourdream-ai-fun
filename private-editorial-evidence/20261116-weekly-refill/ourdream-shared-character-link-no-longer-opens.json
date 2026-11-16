@@ -1,0 +1,43 @@
+{
+  "domain": "ourdream-ai.fun",
+  "slug": "ourdream-shared-character-link-no-longer-opens",
+  "order": 8,
+  "reviewedAt": "2026-11-16T11:24:33.383Z",
+  "factsCheckedAt": "2026-11-16T11:24:12Z",
+  "contentSha256": "f8dea1c08acc6221515b3f74fb2801fd8ca79edbb50cade31f07991550c816dc",
+  "reviewStandard": "portfolio-basic-quality-20261027",
+  "releaseAt": "2026-12-01T09:00:00.000Z",
+  "readerQuestion": "What should I check if an older OurDream character link stops opening?",
+  "applicableClaims": [
+    {
+      "name": "OurDream unavailable public characters",
+      "url": "https://help.ourdream.ai/en/articles/7617857",
+      "note": "Lists example reasons for a character no longer being publicly accessible."
+    },
+    {
+      "name": "OurDream public character review",
+      "url": "https://help.ourdream.ai/en/articles/7617601",
+      "note": "States that characters undergo review before public listing, and provides a support path."
+    },
+    {
+      "name": "OurDream community-written FAQ hosted by the operator",
+      "url": "https://help.ourdream.ai/en/articles/8993665",
+      "note": "Describes referral rewards and share behavior; distinguished from the operator's plan and checkout terms."
+    }
+  ],
+  "exampleType": "Original illustrative workflow",
+  "proofOfExistingPublicPrefix": "research/prepublish-tested-seo-20261023/runs/2026-11-16-weekly-refill/sites/ourdream-ai.fun/baseline.json",
+  "illustration": {
+    "path": "public/assets/editorial-ourdream-shared-character-link-no-longer-opens.png",
+    "sha256": "1ca9b1810fe210f73042995bf061a4010f16222f2d82b6f24dfd9c614fdc0dca",
+    "type": "Original editorial diagram",
+    "alt": "Check the saved link as written. Confirm who owns the character. Keep your own scene notes."
+  },
+  "editorialReview": {
+    "readerAction": "Identify the character and check the operator's visibility explanations before deciding what to preserve.",
+    "wordCount": 158,
+    "factBasis": "Primary sources and an explicitly fictional example. No product operation is claimed.",
+    "sourceLinksKeptInPrivateEvidence": true,
+    "productionReview": "The compiled Worker, all release boundaries and formal site are checked separately."
+  }
+}

@@ -159,6 +159,194 @@
         }
       ],
       "certificateDigest": "fa8acf3390ff37a820b1994a9048c032b4f24d9098249a0cdb9c1857dfd92518"
+    },
+    "ourdream-original-public-character-review-status": {
+      "schemaVersion": 1,
+      "domain": "ourdream-ai.fun",
+      "slug": "ourdream-original-public-character-review-status",
+      "order": 6,
+      "releaseAt": "2026-11-17T09:00:00.000Z",
+      "activationAt": "2026-11-17T09:00:00.000Z",
+      "contentSha256": "577281843d99eb8ee552254f3ad3565a9e9702aec9c6816044234cefcb9abf81",
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "reviewedAt": "2026-11-16T11:24:33.383Z",
+      "factsCheckedAt": "2026-11-16T11:24:12Z",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Primary sources and an explicitly fictional example. No product operation is claimed."
+      },
+      "officialSources": [
+        {
+          "name": "OurDream public character review",
+          "url": "https://help.ourdream.ai/en/articles/7617601",
+          "note": "States that characters undergo review before public listing, and provides a support path.",
+          "checkedAt": "2026-11-16T11:24:12Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261116-weekly-refill/ourdream-original-public-character-review-status.json",
+              "sha256": "5247ba306762f191f8ed309a3f472d666899b8ce0e0a7863de0600f15c685c18"
+            }
+          ]
+        },
+        {
+          "name": "OurDream unavailable public characters",
+          "url": "https://help.ourdream.ai/en/articles/7617857",
+          "note": "Lists example reasons for a character no longer being publicly accessible.",
+          "checkedAt": "2026-11-16T11:24:12Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261116-weekly-refill/ourdream-original-public-character-review-status.json",
+              "sha256": "5247ba306762f191f8ed309a3f472d666899b8ce0e0a7863de0600f15c685c18"
+            }
+          ]
+        },
+        {
+          "name": "OurDream terms of service",
+          "url": "https://ourdream.ai/terms/terms-of-service",
+          "note": "Defines the operator's access, purchases and content rules; no offer terms or discounts inferred from the terms.",
+          "checkedAt": "2026-11-16T11:24:12Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261116-weekly-refill/ourdream-original-public-character-review-status.json",
+              "sha256": "5247ba306762f191f8ed309a3f472d666899b8ce0e0a7863de0600f15c685c18"
+            }
+          ]
+        }
+      ],
+      "observations": [],
+      "certificateDigest": "7dcbd97f1b935e9d71786ec707870115c23932343670041b1dd5e8cf5c6c77ff"
+    },
+    "ourdream-prep-text-only-character-reference-sheet": {
+      "schemaVersion": 1,
+      "domain": "ourdream-ai.fun",
+      "slug": "ourdream-prep-text-only-character-reference-sheet",
+      "order": 7,
+      "releaseAt": "2026-11-24T09:00:00.000Z",
+      "activationAt": "2026-11-24T09:00:00.000Z",
+      "contentSha256": "99db761d93c4caade5bbc6c1ec75b1fec56c54244a9f970a449ef67db9e52790",
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "reviewedAt": "2026-11-16T11:24:33.383Z",
+      "factsCheckedAt": "2026-11-16T11:24:12Z",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Primary sources and an explicitly fictional example. No product operation is claimed."
+      },
+      "officialSources": [
+        {
+          "name": "OurDream reference-photo rules",
+          "url": "https://help.ourdream.ai/en/articles/11104449",
+          "note": "States that reference photo upload is prohibited. Examples rely on invented textual descriptions.",
+          "checkedAt": "2026-11-16T11:24:12Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261116-weekly-refill/ourdream-prep-text-only-character-reference-sheet.json",
+              "sha256": "97fa8ce7b4ae5b5193a5b9da63022171d845285732b4675316270688ec6fd9c7"
+            }
+          ]
+        },
+        {
+          "name": "OurDream prompt-writing help",
+          "url": "https://help.ourdream.ai/en/articles/8747009",
+          "note": "Describes concrete prompts, lighting and composition, and returning to successful prompt elements despite output variability.",
+          "checkedAt": "2026-11-16T11:24:12Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261116-weekly-refill/ourdream-prep-text-only-character-reference-sheet.json",
+              "sha256": "97fa8ce7b4ae5b5193a5b9da63022171d845285732b4675316270688ec6fd9c7"
+            }
+          ]
+        }
+      ],
+      "observations": [],
+      "certificateDigest": "d24191583884d5dd6202a98e7068dcc9c0e10e2e1cc702e6016ee2e411817ec4"
+    },
+    "ourdream-shared-character-link-no-longer-opens": {
+      "schemaVersion": 1,
+      "domain": "ourdream-ai.fun",
+      "slug": "ourdream-shared-character-link-no-longer-opens",
+      "order": 8,
+      "releaseAt": "2026-12-01T09:00:00.000Z",
+      "activationAt": "2026-12-01T09:00:00.000Z",
+      "contentSha256": "f8dea1c08acc6221515b3f74fb2801fd8ca79edbb50cade31f07991550c816dc",
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "reviewedAt": "2026-11-16T11:24:33.383Z",
+      "factsCheckedAt": "2026-11-16T11:24:12Z",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Primary sources and an explicitly fictional example. No product operation is claimed."
+      },
+      "officialSources": [
+        {
+          "name": "OurDream unavailable public characters",
+          "url": "https://help.ourdream.ai/en/articles/7617857",
+          "note": "Lists example reasons for a character no longer being publicly accessible.",
+          "checkedAt": "2026-11-16T11:24:12Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261116-weekly-refill/ourdream-shared-character-link-no-longer-opens.json",
+              "sha256": "66fca888635ea1ac1af756338d2be36a663d874ab5ae90eb4b1209d3e991663d"
+            }
+          ]
+        },
+        {
+          "name": "OurDream public character review",
+          "url": "https://help.ourdream.ai/en/articles/7617601",
+          "note": "States that characters undergo review before public listing, and provides a support path.",
+          "checkedAt": "2026-11-16T11:24:12Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261116-weekly-refill/ourdream-shared-character-link-no-longer-opens.json",
+              "sha256": "66fca888635ea1ac1af756338d2be36a663d874ab5ae90eb4b1209d3e991663d"
+            }
+          ]
+        },
+        {
+          "name": "OurDream community-written FAQ hosted by the operator",
+          "url": "https://help.ourdream.ai/en/articles/8993665",
+          "note": "Describes referral rewards and share behavior; distinguished from the operator's plan and checkout terms.",
+          "checkedAt": "2026-11-16T11:24:12Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261116-weekly-refill/ourdream-shared-character-link-no-longer-opens.json",
+              "sha256": "66fca888635ea1ac1af756338d2be36a663d874ab5ae90eb4b1209d3e991663d"
+            }
+          ]
+        }
+      ],
+      "observations": [],
+      "certificateDigest": "f03d238e816d0d2ac2f3a5b341291c494a66189307671c63e8cbc79958fd7b2c"
     }
   }
 }
