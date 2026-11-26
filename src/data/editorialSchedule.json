@@ -222,6 +222,56 @@
           "https://help.ourdream.ai/en/articles/8993665"
         ]
       ]
+    },
+    {
+      "order": 9,
+      "slug": "ourdream-group-chat-select-one-speaker-question",
+      "title": "OurDream Group Chat: Direct One Question to One Speaker",
+      "readerQuestion": "How do I ask one character a question without inviting an unclear reply from the whole group?",
+      "releaseAt": "2026-12-08T09:00:00.000Z",
+      "notBefore": "2026-12-08T09:00:00.000Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-11-26",
+      "reviewedSha256": "82377d0a20d77c2c6c016aef7e0887039a5e4fff11c41a1e5ebccdaf8a468f86",
+      "wordCount": 339,
+      "editorialIntent": "Use the documented speaker selection, name the addressee in the message and check that the resulting reply belongs to the intended role.",
+      "sources": [
+        [
+          "OurDream Help: community-written FAQ",
+          "https://help.ourdream.ai/en/articles/8993665"
+        ],
+        [
+          "Purdue OWL: clear pronoun references",
+          "https://owl.purdue.edu/owl/general_writing/grammar/pronouns/index.html"
+        ]
+      ]
+    },
+    {
+      "order": 10,
+      "slug": "ourdream-ava-feature-claim-check-actual-control",
+      "title": "OurDream Feature Claims in Chat: Check the Actual Control",
+      "readerQuestion": "What should I do when Ava describes an option or reward that I cannot find in the interface?",
+      "releaseAt": "2026-12-15T09:00:00.000Z",
+      "notBefore": "2026-12-15T09:00:00.000Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-11-26",
+      "reviewedSha256": "90dde9c056a3c00eab45360aae710bbfa7f1ae8688b3fbb78499f52bb6f40b0c",
+      "wordCount": 347,
+      "editorialIntent": "Separate a generated statement from a documented feature or account change, and collect a narrow support question when they disagree.",
+      "sources": [
+        [
+          "OurDream Help: community-written FAQ",
+          "https://help.ourdream.ai/en/articles/8993665"
+        ],
+        [
+          "OurDream Help: what are dreamcoins",
+          "https://help.ourdream.ai/en/articles/7861249"
+        ]
+      ]
     }
   ],
   "baselinePhase": 1,

@@ -1,0 +1,53 @@
+{
+  "domain": "ourdream-ai.fun",
+  "slug": "ourdream-group-chat-select-one-speaker-question",
+  "order": 9,
+  "reviewedAt": "2026-11-26T10:48:25.287Z",
+  "factsCheckedAt": "2026-11-26T10:48:25.287Z",
+  "contentSha256": "82377d0a20d77c2c6c016aef7e0887039a5e4fff11c41a1e5ebccdaf8a468f86",
+  "reviewStandard": "portfolio-basic-quality-20261027",
+  "releaseAt": "2026-12-08T09:00:00.000Z",
+  "readerQuestion": "How do I ask one character a question without inviting an unclear reply from the whole group?",
+  "applicableClaims": [
+    {
+      "name": "OurDream Help: community-written FAQ",
+      "url": "https://help.ourdream.ai/en/articles/8993665",
+      "note": "Read provider-hosted August 3 FAQ, portrait or @ character selection before a group message, and warning that Ava may fabricate features. Contradictory free-coin, dated generator/training, public-review-volume and deadline claims not adopted.",
+      "observedOn": "2026-11-26",
+      "webRecord": "turn1151view0;turn1152view2;turn1153view1"
+    },
+    {
+      "name": "Purdue OWL: clear pronoun references",
+      "url": "https://owl.purdue.edu/owl/general_writing/grammar/pronouns/index.html",
+      "note": "Read named reference clarity principle. Observatory group dialogue and role assignments are original examples, not product observations.",
+      "observedOn": "2026-11-26",
+      "webRecord": "turn1130view0"
+    }
+  ],
+  "exampleType": "Original illustrative guidance, not an unperformed product test",
+  "proofOfExistingPublicPrefix": "research/prepublish-tested-seo-20261023/runs/2026-11-26-two-blogs-per-site/sites/ourdream-ai.fun/baseline.json",
+  "illustration": {
+    "path": "public/assets/editorial-ourdream-group-chat-select-one-speaker-question.webp",
+    "sha256": "affa3e86e7d94848ec371e0b7f12f4017ff80268c55b859c22444ec35d648f89",
+    "originalPngSha256": "158a2b53e62373f2c136bc9d62377a206b5a601d24a20bf722a352500fef246e",
+    "width": 1672,
+    "height": 941,
+    "type": "Original imagegen editorial artwork",
+    "alt": "Two original adult fictional women consider a star chart in an observatory lounge while the blue-dress guide points to one star and the other listens.",
+    "deliveryConversion": "WebP quality 92; original dimensions retained; no content alteration",
+    "visuallyReviewed": true
+  },
+  "editorialReview": {
+    "readerAction": "Use the documented speaker selection, name the addressee in the message and check that the resulting reply belongs to the intended role.",
+    "wordCount": 339,
+    "sourceLinksKeptInPrivateEvidence": true,
+    "factBasis": "Relevant primary documents and explicitly illustrative examples. No product operation, performance or actual print test is claimed.",
+    "reviewBasis": {
+      "intent": "How do I ask one character a question without inviting an unclear reply from the whole group?",
+      "independentValue": "Use the documented speaker selection, name the addressee in the message and check that the resulting reply belongs to the intended role.",
+      "image": "Two original adult fictional women consider a star chart in an observatory lounge while the blue-dress guide points to one star and the other listens.",
+      "readability": "Individually edited answer-led prose and a bounded worked example; no copied brand-swap template.",
+      "layout": "Pending complete-build desktop/mobile checks; separately required before deployment."
+    }
+  }
+}

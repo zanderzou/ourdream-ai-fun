@@ -347,6 +347,122 @@
       ],
       "observations": [],
       "certificateDigest": "f03d238e816d0d2ac2f3a5b341291c494a66189307671c63e8cbc79958fd7b2c"
+    },
+    "ourdream-group-chat-select-one-speaker-question": {
+      "schemaVersion": 1,
+      "domain": "ourdream-ai.fun",
+      "slug": "ourdream-group-chat-select-one-speaker-question",
+      "order": 9,
+      "releaseAt": "2026-12-08T09:00:00.000Z",
+      "activationAt": "2026-12-08T09:00:00.000Z",
+      "contentSha256": "82377d0a20d77c2c6c016aef7e0887039a5e4fff11c41a1e5ebccdaf8a468f86",
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "reviewedAt": "2026-11-26T10:48:25.287Z",
+      "factsCheckedAt": "2026-11-26T10:48:25.287Z",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Relevant primary documents and explicitly illustrative examples. No product operation, performance or actual print test is claimed."
+      },
+      "officialSources": [
+        {
+          "name": "OurDream Help: community-written FAQ",
+          "url": "https://help.ourdream.ai/en/articles/8993665",
+          "note": "Read provider-hosted August 3 FAQ, portrait or @ character selection before a group message, and warning that Ava may fabricate features. Contradictory free-coin, dated generator/training, public-review-volume and deadline claims not adopted.",
+          "observedOn": "2026-11-26",
+          "webRecord": "turn1151view0;turn1152view2;turn1153view1",
+          "checkedAt": "2026-11-26T10:48:25.287Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261126-two-blogs/ourdream-group-chat-select-one-speaker-question.json",
+              "sha256": "11c60c7edf97e233cbaad72886e14251d1861bedbf179dfd5282c869f1e25747"
+            }
+          ]
+        },
+        {
+          "name": "Purdue OWL: clear pronoun references",
+          "url": "https://owl.purdue.edu/owl/general_writing/grammar/pronouns/index.html",
+          "note": "Read named reference clarity principle. Observatory group dialogue and role assignments are original examples, not product observations.",
+          "observedOn": "2026-11-26",
+          "webRecord": "turn1130view0",
+          "checkedAt": "2026-11-26T10:48:25.287Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261126-two-blogs/ourdream-group-chat-select-one-speaker-question.json",
+              "sha256": "11c60c7edf97e233cbaad72886e14251d1861bedbf179dfd5282c869f1e25747"
+            }
+          ]
+        }
+      ],
+      "observations": [],
+      "certificateDigest": "cbaeb64267f15e887b2367c56ba5ad245444e197f1b2e7fff4cf07f00026d26e"
+    },
+    "ourdream-ava-feature-claim-check-actual-control": {
+      "schemaVersion": 1,
+      "domain": "ourdream-ai.fun",
+      "slug": "ourdream-ava-feature-claim-check-actual-control",
+      "order": 10,
+      "releaseAt": "2026-12-15T09:00:00.000Z",
+      "activationAt": "2026-12-15T09:00:00.000Z",
+      "contentSha256": "90dde9c056a3c00eab45360aae710bbfa7f1ae8688b3fbb78499f52bb6f40b0c",
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "reviewedAt": "2026-11-26T10:48:25.287Z",
+      "factsCheckedAt": "2026-11-26T10:48:25.287Z",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Relevant primary documents and explicitly illustrative examples. No product operation, performance or actual print test is claimed."
+      },
+      "officialSources": [
+        {
+          "name": "OurDream Help: community-written FAQ",
+          "url": "https://help.ourdream.ai/en/articles/8993665",
+          "note": "Read provider-hosted August 3 FAQ, portrait or @ character selection before a group message, and warning that Ava may fabricate features. Contradictory free-coin, dated generator/training, public-review-volume and deadline claims not adopted.",
+          "observedOn": "2026-11-26",
+          "webRecord": "turn1151view0;turn1152view2;turn1153view1",
+          "checkedAt": "2026-11-26T10:48:25.287Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261126-two-blogs/ourdream-ava-feature-claim-check-actual-control.json",
+              "sha256": "ee306d4e8c72c233f6c419d79c8ef7afddcbf05a9f0e038fd7990d125605bb94"
+            }
+          ]
+        },
+        {
+          "name": "OurDream Help: what are dreamcoins",
+          "url": "https://help.ourdream.ai/en/articles/7861249",
+          "note": "Read currency and active-subscription coin-purchase distinction; no universal monthly quota or a fictional reply as a real wallet operation.",
+          "observedOn": "2026-11-26",
+          "webRecord": "turn1152view1",
+          "checkedAt": "2026-11-26T10:48:25.287Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261126-two-blogs/ourdream-ava-feature-claim-check-actual-control.json",
+              "sha256": "ee306d4e8c72c233f6c419d79c8ef7afddcbf05a9f0e038fd7990d125605bb94"
+            }
+          ]
+        }
+      ],
+      "observations": [],
+      "certificateDigest": "d47a56b939ee92810c5fa47401bf9988be4b0902405e0abfda787ec0cc77769f"
     }
   }
 }

@@ -1,0 +1,53 @@
+{
+  "domain": "ourdream-ai.fun",
+  "slug": "ourdream-ava-feature-claim-check-actual-control",
+  "order": 10,
+  "reviewedAt": "2026-11-26T10:48:25.287Z",
+  "factsCheckedAt": "2026-11-26T10:48:25.287Z",
+  "contentSha256": "90dde9c056a3c00eab45360aae710bbfa7f1ae8688b3fbb78499f52bb6f40b0c",
+  "reviewStandard": "portfolio-basic-quality-20261027",
+  "releaseAt": "2026-12-15T09:00:00.000Z",
+  "readerQuestion": "What should I do when Ava describes an option or reward that I cannot find in the interface?",
+  "applicableClaims": [
+    {
+      "name": "OurDream Help: community-written FAQ",
+      "url": "https://help.ourdream.ai/en/articles/8993665",
+      "note": "Read provider-hosted August 3 FAQ, portrait or @ character selection before a group message, and warning that Ava may fabricate features. Contradictory free-coin, dated generator/training, public-review-volume and deadline claims not adopted.",
+      "observedOn": "2026-11-26",
+      "webRecord": "turn1151view0;turn1152view2;turn1153view1"
+    },
+    {
+      "name": "OurDream Help: what are dreamcoins",
+      "url": "https://help.ourdream.ai/en/articles/7861249",
+      "note": "Read currency and active-subscription coin-purchase distinction; no universal monthly quota or a fictional reply as a real wallet operation.",
+      "observedOn": "2026-11-26",
+      "webRecord": "turn1152view1"
+    }
+  ],
+  "exampleType": "Original illustrative guidance, not an unperformed product test",
+  "proofOfExistingPublicPrefix": "research/prepublish-tested-seo-20261023/runs/2026-11-26-two-blogs-per-site/sites/ourdream-ai.fun/baseline.json",
+  "illustration": {
+    "path": "public/assets/editorial-ourdream-ava-feature-claim-check-actual-control.webp",
+    "sha256": "95337429596bf9c9e772e479a1fef45770834bff82f04789c984bf9c621ec0a1",
+    "originalPngSha256": "629f70914603ec6e0071042703331ccd74215fdadf4be782cbb01602467bae09",
+    "width": 1672,
+    "height": 941,
+    "type": "Original imagegen editorial artwork",
+    "alt": "An original adult fictional woman compares a blank cream information card with a generic phone at a modern cobalt and gold desk.",
+    "deliveryConversion": "WebP quality 92; original dimensions retained; no content alteration",
+    "visuallyReviewed": true
+  },
+  "editorialReview": {
+    "readerAction": "Separate a generated statement from a documented feature or account change, and collect a narrow support question when they disagree.",
+    "wordCount": 347,
+    "sourceLinksKeptInPrivateEvidence": true,
+    "factBasis": "Relevant primary documents and explicitly illustrative examples. No product operation, performance or actual print test is claimed.",
+    "reviewBasis": {
+      "intent": "What should I do when Ava describes an option or reward that I cannot find in the interface?",
+      "independentValue": "Separate a generated statement from a documented feature or account change, and collect a narrow support question when they disagree.",
+      "image": "An original adult fictional woman compares a blank cream information card with a generic phone at a modern cobalt and gold desk.",
+      "readability": "Individually edited answer-led prose and a bounded worked example; no copied brand-swap template.",
+      "layout": "Pending complete-build desktop/mobile checks; separately required before deployment."
+    }
+  }
+}
