@@ -2,7 +2,7 @@
 title: "OurDream Group Chat: Direct One Question to One Speaker"
 description: "Use the documented speaker selection, name the addressee in the message and check that the resulting reply belongs to the intended role."
 publishDate: "2026-12-08"
-updatedDate: "2026-12-08"
+updatedDate: "2026-11-26"
 category: "Practical Guides"
 readTime: "2 min read"
 answer: "Use the documented speaker selection, name the addressee in the message and check that the resulting reply belongs to the intended role."

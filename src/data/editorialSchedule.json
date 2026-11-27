@@ -234,7 +234,7 @@
       "approved": true,
       "status": "editorially-reviewed",
       "sourcesCheckedAt": "2026-11-26",
-      "reviewedSha256": "82377d0a20d77c2c6c016aef7e0887039a5e4fff11c41a1e5ebccdaf8a468f86",
+      "reviewedSha256": "858e86acf27211e2bd4eae78c575a60f67680e1edac31e16ca8e7947954f1337",
       "wordCount": 339,
       "editorialIntent": "Use the documented speaker selection, name the addressee in the message and check that the resulting reply belongs to the intended role.",
       "sources": [
@@ -259,7 +259,7 @@
       "approved": true,
       "status": "editorially-reviewed",
       "sourcesCheckedAt": "2026-11-26",
-      "reviewedSha256": "90dde9c056a3c00eab45360aae710bbfa7f1ae8688b3fbb78499f52bb6f40b0c",
+      "reviewedSha256": "90cdbd51ecc77ed6796bbec56d02bc7c3013e4a5276ea4fe31d3fe66a39a7a67",
       "wordCount": 347,
       "editorialIntent": "Separate a generated statement from a documented feature or account change, and collect a narrow support question when they disagree.",
       "sources": [
@@ -270,6 +270,56 @@
         [
           "OurDream Help: what are dreamcoins",
           "https://help.ourdream.ai/en/articles/7861249"
+        ]
+      ]
+    },
+    {
+      "order": 11,
+      "slug": "ourdream-keep-time-of-day-consistent-in-image-prompt",
+      "title": "Keep Time-of-Day Cues Consistent in an OurDream Image",
+      "readerQuestion": "How can I make a fictional evening portrait read as evening?",
+      "releaseAt": "2026-12-22T09:00:00.000Z",
+      "notBefore": "2026-12-22T09:00:00.000Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-11-27",
+      "reviewedSha256": "a8d05771734741ef11188b4df6dadd8474f3b995bf9a925ab1b219d9d08ff2ae",
+      "wordCount": 227,
+      "editorialIntent": "Name one time, one main light source and a visible shadow detail, then compare those cues in the result.",
+      "sources": [
+        [
+          "OurDream Help: How to write better prompts for quality results",
+          "https://help.ourdream.ai/en/articles/8747009"
+        ],
+        [
+          "OurDream Help: Can I upload photos for characters or generations?",
+          "https://help.ourdream.ai/en/articles/11104449"
+        ]
+      ]
+    },
+    {
+      "order": 12,
+      "slug": "ourdream-group-scene-transfer-a-prop-in-one-turn",
+      "title": "Hand Over a Prop Clearly in an OurDream Group Scene",
+      "readerQuestion": "How can I keep a shared object from changing hands before a character chooses to take it?",
+      "releaseAt": "2026-12-29T09:00:00.000Z",
+      "notBefore": "2026-12-29T09:00:00.000Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-11-27",
+      "reviewedSha256": "f2be78265ecb0ec9f1dea6fc529e16a5785c6950ef2eca3a36d8f82fddc0392d",
+      "wordCount": 205,
+      "editorialIntent": "Name the current holder, narrate one physical movement and leave a clear action for the intended responder.",
+      "sources": [
+        [
+          "OurDream Help: Community Written FAQs",
+          "https://help.ourdream.ai/en/articles/8993665"
+        ],
+        [
+          "OurDream Help: How to write better prompts for quality results",
+          "https://help.ourdream.ai/en/articles/8747009"
         ]
       ]
     }

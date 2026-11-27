@@ -4,7 +4,7 @@
   "order": 10,
   "reviewedAt": "2026-11-26T10:48:25.287Z",
   "factsCheckedAt": "2026-11-26T10:48:25.287Z",
-  "contentSha256": "90dde9c056a3c00eab45360aae710bbfa7f1ae8688b3fbb78499f52bb6f40b0c",
+  "contentSha256": "90cdbd51ecc77ed6796bbec56d02bc7c3013e4a5276ea4fe31d3fe66a39a7a67",
   "reviewStandard": "portfolio-basic-quality-20261027",
   "releaseAt": "2026-12-15T09:00:00.000Z",
   "readerQuestion": "What should I do when Ava describes an option or reward that I cannot find in the interface?",
@@ -49,5 +49,12 @@
       "readability": "Individually edited answer-led prose and a bounded worked example; no copied brand-swap template.",
       "layout": "Pending complete-build desktop/mobile checks; separately required before deployment."
     }
+  },
+  "reviewDateCorrection": {
+    "checkedAt": "2026-11-27T01:13:33.552Z",
+    "originalVerifiedReviewDate": "2026-11-26",
+    "previousContentSha256": "90dde9c056a3c00eab45360aae710bbfa7f1ae8688b3fbb78499f52bb6f40b0c",
+    "previousCertificateDigest": "d47a56b939ee92810c5fa47401bf9988be4b0902405e0abfda787ec0cc77769f",
+    "change": "Use the real editorial review date in updatedDate. The published date, activation time, body, artwork, sources and previous review remain the same."
   }
 }

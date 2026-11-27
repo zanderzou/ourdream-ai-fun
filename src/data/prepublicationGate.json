@@ -355,7 +355,7 @@
       "order": 9,
       "releaseAt": "2026-12-08T09:00:00.000Z",
       "activationAt": "2026-12-08T09:00:00.000Z",
-      "contentSha256": "82377d0a20d77c2c6c016aef7e0887039a5e4fff11c41a1e5ebccdaf8a468f86",
+      "contentSha256": "858e86acf27211e2bd4eae78c575a60f67680e1edac31e16ca8e7947954f1337",
       "skill": {
         "name": "write-tested-seo",
         "version": "1.5"
@@ -383,7 +383,7 @@
           "evidence": [
             {
               "path": "private-editorial-evidence/20261126-two-blogs/ourdream-group-chat-select-one-speaker-question.json",
-              "sha256": "11c60c7edf97e233cbaad72886e14251d1861bedbf179dfd5282c869f1e25747"
+              "sha256": "fb0bc8965f882987483ed073d0463dfb66e184723f95e233753e2f597791609f"
             }
           ]
         },
@@ -398,13 +398,13 @@
           "evidence": [
             {
               "path": "private-editorial-evidence/20261126-two-blogs/ourdream-group-chat-select-one-speaker-question.json",
-              "sha256": "11c60c7edf97e233cbaad72886e14251d1861bedbf179dfd5282c869f1e25747"
+              "sha256": "fb0bc8965f882987483ed073d0463dfb66e184723f95e233753e2f597791609f"
             }
           ]
         }
       ],
       "observations": [],
-      "certificateDigest": "cbaeb64267f15e887b2367c56ba5ad245444e197f1b2e7fff4cf07f00026d26e"
+      "certificateDigest": "dbfc413129803f0fa34a8e1b519990c767b9908a97ed0197d5b81eecffd8c239"
     },
     "ourdream-ava-feature-claim-check-actual-control": {
       "schemaVersion": 1,
@@ -413,7 +413,7 @@
       "order": 10,
       "releaseAt": "2026-12-15T09:00:00.000Z",
       "activationAt": "2026-12-15T09:00:00.000Z",
-      "contentSha256": "90dde9c056a3c00eab45360aae710bbfa7f1ae8688b3fbb78499f52bb6f40b0c",
+      "contentSha256": "90cdbd51ecc77ed6796bbec56d02bc7c3013e4a5276ea4fe31d3fe66a39a7a67",
       "skill": {
         "name": "write-tested-seo",
         "version": "1.5"
@@ -441,7 +441,7 @@
           "evidence": [
             {
               "path": "private-editorial-evidence/20261126-two-blogs/ourdream-ava-feature-claim-check-actual-control.json",
-              "sha256": "ee306d4e8c72c233f6c419d79c8ef7afddcbf05a9f0e038fd7990d125605bb94"
+              "sha256": "332de7d7d048680071ca7c377fab046f0ea559c4aa280cf279b1c6975686899e"
             }
           ]
         },
@@ -456,13 +456,129 @@
           "evidence": [
             {
               "path": "private-editorial-evidence/20261126-two-blogs/ourdream-ava-feature-claim-check-actual-control.json",
-              "sha256": "ee306d4e8c72c233f6c419d79c8ef7afddcbf05a9f0e038fd7990d125605bb94"
+              "sha256": "332de7d7d048680071ca7c377fab046f0ea559c4aa280cf279b1c6975686899e"
             }
           ]
         }
       ],
       "observations": [],
-      "certificateDigest": "d47a56b939ee92810c5fa47401bf9988be4b0902405e0abfda787ec0cc77769f"
+      "certificateDigest": "35db29bc97a4b5fe65fbe0eb881832f3f8a97f94ef94f1a3a0bc548a83315969"
+    },
+    "ourdream-keep-time-of-day-consistent-in-image-prompt": {
+      "schemaVersion": 1,
+      "domain": "ourdream-ai.fun",
+      "slug": "ourdream-keep-time-of-day-consistent-in-image-prompt",
+      "order": 11,
+      "releaseAt": "2026-12-22T09:00:00.000Z",
+      "activationAt": "2026-12-22T09:00:00.000Z",
+      "contentSha256": "a8d05771734741ef11188b4df6dadd8474f3b995bf9a925ab1b219d9d08ff2ae",
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "reviewedAt": "2026-11-27T01:13:27.514Z",
+      "factsCheckedAt": "2026-11-27T01:13:27.514Z",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Relevant primary documents and explicitly illustrative examples. No product operation, performance or actual print test is claimed."
+      },
+      "officialSources": [
+        {
+          "name": "OurDream Help: How to write better prompts for quality results",
+          "url": "https://help.ourdream.ai/en/articles/8747009",
+          "note": "Read the sections on lighting, composition, keeping descriptors consistent, and avoiding competing instructions. The terrace is an editorial example, not a product render.",
+          "observedOn": "2026-11-27",
+          "webRecord": "turn1216view1",
+          "checkedAt": "2026-11-27T01:13:27.514Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261126-next-two-blogs/ourdream-keep-time-of-day-consistent-in-image-prompt.json",
+              "sha256": "c79c43c8cf29bbb2dc7c5a5cab68acb966a2918c1a2c5c8f93cc9505294be353"
+            }
+          ]
+        },
+        {
+          "name": "OurDream Help: Can I upload photos for characters or generations?",
+          "url": "https://help.ourdream.ai/en/articles/11104449",
+          "note": "The March 9 help page disallows reference-photo uploads. The sample uses fictional written details only.",
+          "observedOn": "2026-11-27",
+          "webRecord": "turn1227view2",
+          "checkedAt": "2026-11-27T01:13:27.514Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261126-next-two-blogs/ourdream-keep-time-of-day-consistent-in-image-prompt.json",
+              "sha256": "c79c43c8cf29bbb2dc7c5a5cab68acb966a2918c1a2c5c8f93cc9505294be353"
+            }
+          ]
+        }
+      ],
+      "observations": [],
+      "certificateDigest": "ced7fa961e94c9a82a5a5eb0277aa1cc96d6169f7bcdcad98cbabfe0248e69bc"
+    },
+    "ourdream-group-scene-transfer-a-prop-in-one-turn": {
+      "schemaVersion": 1,
+      "domain": "ourdream-ai.fun",
+      "slug": "ourdream-group-scene-transfer-a-prop-in-one-turn",
+      "order": 12,
+      "releaseAt": "2026-12-29T09:00:00.000Z",
+      "activationAt": "2026-12-29T09:00:00.000Z",
+      "contentSha256": "f2be78265ecb0ec9f1dea6fc529e16a5785c6950ef2eca3a36d8f82fddc0392d",
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "reviewedAt": "2026-11-27T01:13:27.514Z",
+      "factsCheckedAt": "2026-11-27T01:13:27.514Z",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Relevant primary documents and explicitly illustrative examples. No product operation, performance or actual print test is claimed."
+      },
+      "officialSources": [
+        {
+          "name": "OurDream Help: Community Written FAQs",
+          "url": "https://help.ourdream.ai/en/articles/8993665",
+          "note": "Read the passage on selecting a group-chat responder by portrait or @. No in-account controls or story behavior were tested. Other older app, moderation and reward claims were not adopted.",
+          "observedOn": "2026-11-27",
+          "webRecord": "turn1216view2 lines 97–102",
+          "checkedAt": "2026-11-27T01:13:27.514Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261126-next-two-blogs/ourdream-group-scene-transfer-a-prop-in-one-turn.json",
+              "sha256": "e0fb3ff274a5b28841a4c1bd2140dca8b2faea7cfb54547574d962fb3374f52b"
+            }
+          ]
+        },
+        {
+          "name": "OurDream Help: How to write better prompts for quality results",
+          "url": "https://help.ourdream.ai/en/articles/8747009",
+          "note": "Read the sections on lighting, composition, keeping descriptors consistent, and avoiding competing instructions. The terrace is an editorial example, not a product render.",
+          "observedOn": "2026-11-27",
+          "webRecord": "turn1216view1",
+          "checkedAt": "2026-11-27T01:13:27.514Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261126-next-two-blogs/ourdream-group-scene-transfer-a-prop-in-one-turn.json",
+              "sha256": "e0fb3ff274a5b28841a4c1bd2140dca8b2faea7cfb54547574d962fb3374f52b"
+            }
+          ]
+        }
+      ],
+      "observations": [],
+      "certificateDigest": "3c1f7392689f668c1dacbfe5afb6c7dd2dc484adb7b373647df5a034f9629dc1"
     }
   }
 }

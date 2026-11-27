@@ -2,7 +2,7 @@
 title: "OurDream Feature Claims in Chat: Check the Actual Control"
 description: "Separate a generated statement from a documented feature or account change, and collect a narrow support question when they disagree."
 publishDate: "2026-12-15"
-updatedDate: "2026-12-15"
+updatedDate: "2026-11-26"
 category: "Practical Guides"
 readTime: "2 min read"
 answer: "Separate a generated statement from a documented feature or account change, and collect a narrow support question when they disagree."

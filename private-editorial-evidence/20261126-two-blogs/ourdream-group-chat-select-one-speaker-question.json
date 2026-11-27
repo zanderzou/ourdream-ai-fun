@@ -4,7 +4,7 @@
   "order": 9,
   "reviewedAt": "2026-11-26T10:48:25.287Z",
   "factsCheckedAt": "2026-11-26T10:48:25.287Z",
-  "contentSha256": "82377d0a20d77c2c6c016aef7e0887039a5e4fff11c41a1e5ebccdaf8a468f86",
+  "contentSha256": "858e86acf27211e2bd4eae78c575a60f67680e1edac31e16ca8e7947954f1337",
   "reviewStandard": "portfolio-basic-quality-20261027",
   "releaseAt": "2026-12-08T09:00:00.000Z",
   "readerQuestion": "How do I ask one character a question without inviting an unclear reply from the whole group?",
@@ -49,5 +49,12 @@
       "readability": "Individually edited answer-led prose and a bounded worked example; no copied brand-swap template.",
       "layout": "Pending complete-build desktop/mobile checks; separately required before deployment."
     }
+  },
+  "reviewDateCorrection": {
+    "checkedAt": "2026-11-27T01:13:33.552Z",
+    "originalVerifiedReviewDate": "2026-11-26",
+    "previousContentSha256": "82377d0a20d77c2c6c016aef7e0887039a5e4fff11c41a1e5ebccdaf8a468f86",
+    "previousCertificateDigest": "cbaeb64267f15e887b2367c56ba5ad245444e197f1b2e7fff4cf07f00026d26e",
+    "change": "Use the real editorial review date in updatedDate. The published date, activation time, body, artwork, sources and previous review remain the same."
   }
 }

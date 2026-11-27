@@ -1,0 +1,53 @@
+{
+  "domain": "ourdream-ai.fun",
+  "slug": "ourdream-keep-time-of-day-consistent-in-image-prompt",
+  "order": 11,
+  "reviewedAt": "2026-11-27T01:13:27.514Z",
+  "factsCheckedAt": "2026-11-27T01:13:27.514Z",
+  "contentSha256": "a8d05771734741ef11188b4df6dadd8474f3b995bf9a925ab1b219d9d08ff2ae",
+  "reviewStandard": "portfolio-basic-quality-20261027",
+  "releaseAt": "2026-12-22T09:00:00.000Z",
+  "readerQuestion": "How can I make a fictional evening portrait read as evening?",
+  "applicableClaims": [
+    {
+      "name": "OurDream Help: How to write better prompts for quality results",
+      "url": "https://help.ourdream.ai/en/articles/8747009",
+      "note": "Read the sections on lighting, composition, keeping descriptors consistent, and avoiding competing instructions. The terrace is an editorial example, not a product render.",
+      "observedOn": "2026-11-27",
+      "webRecord": "turn1216view1"
+    },
+    {
+      "name": "OurDream Help: Can I upload photos for characters or generations?",
+      "url": "https://help.ourdream.ai/en/articles/11104449",
+      "note": "The March 9 help page disallows reference-photo uploads. The sample uses fictional written details only.",
+      "observedOn": "2026-11-27",
+      "webRecord": "turn1227view2"
+    }
+  ],
+  "exampleType": "Original illustrative guidance, not an unperformed product test",
+  "proofOfExistingPublicPrefix": "research/prepublish-tested-seo-20261023/runs/2026-11-26-next-two-blogs-per-site/sites/ourdream-ai.fun/baseline.json",
+  "illustration": {
+    "path": "public/assets/editorial-ourdream-keep-time-of-day-consistent-in-image-prompt.webp",
+    "sha256": "e0b57f5abad9656af7bc3b84418df54a85f8245bcef4d845129270ba5e527635",
+    "originalPngSha256": "6f76da5ee9da449df9fb18d5933396e99abcea94b672a62f4a9c5b1985e8f60e",
+    "width": 1672,
+    "height": 941,
+    "type": "Original imagegen editorial artwork",
+    "alt": "Fictional adult on a tiled terrace at dusk beside one warm lantern.",
+    "deliveryConversion": "WebP quality 92; original dimensions retained; no content alteration",
+    "visuallyReviewed": true
+  },
+  "editorialReview": {
+    "readerAction": "Name one time, one main light source and a visible shadow detail, then compare those cues in the result.",
+    "wordCount": 227,
+    "sourceLinksKeptInPrivateEvidence": true,
+    "factBasis": "Relevant primary documents and explicitly illustrative examples. No product operation, performance or actual print test is claimed.",
+    "reviewBasis": {
+      "intent": "How can I make a fictional evening portrait read as evening?",
+      "independentValue": "Name one time, one main light source and a visible shadow detail, then compare those cues in the result.",
+      "image": "Fictional adult on a tiled terrace at dusk beside one warm lantern.",
+      "readability": "Individually edited answer-led prose and a bounded worked example; no copied brand-swap template.",
+      "layout": "Pending complete-build desktop/mobile checks; separately required before deployment."
+    }
+  }
+}

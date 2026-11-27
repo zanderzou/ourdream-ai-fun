@@ -1,0 +1,53 @@
+{
+  "domain": "ourdream-ai.fun",
+  "slug": "ourdream-group-scene-transfer-a-prop-in-one-turn",
+  "order": 12,
+  "reviewedAt": "2026-11-27T01:13:27.514Z",
+  "factsCheckedAt": "2026-11-27T01:13:27.514Z",
+  "contentSha256": "f2be78265ecb0ec9f1dea6fc529e16a5785c6950ef2eca3a36d8f82fddc0392d",
+  "reviewStandard": "portfolio-basic-quality-20261027",
+  "releaseAt": "2026-12-29T09:00:00.000Z",
+  "readerQuestion": "How can I keep a shared object from changing hands before a character chooses to take it?",
+  "applicableClaims": [
+    {
+      "name": "OurDream Help: Community Written FAQs",
+      "url": "https://help.ourdream.ai/en/articles/8993665",
+      "note": "Read the passage on selecting a group-chat responder by portrait or @. No in-account controls or story behavior were tested. Other older app, moderation and reward claims were not adopted.",
+      "observedOn": "2026-11-27",
+      "webRecord": "turn1216view2 lines 97–102"
+    },
+    {
+      "name": "OurDream Help: How to write better prompts for quality results",
+      "url": "https://help.ourdream.ai/en/articles/8747009",
+      "note": "Read the sections on lighting, composition, keeping descriptors consistent, and avoiding competing instructions. The terrace is an editorial example, not a product render.",
+      "observedOn": "2026-11-27",
+      "webRecord": "turn1216view1"
+    }
+  ],
+  "exampleType": "Original illustrative guidance, not an unperformed product test",
+  "proofOfExistingPublicPrefix": "research/prepublish-tested-seo-20261023/runs/2026-11-26-next-two-blogs-per-site/sites/ourdream-ai.fun/baseline.json",
+  "illustration": {
+    "path": "public/assets/editorial-ourdream-group-scene-transfer-a-prop-in-one-turn.webp",
+    "sha256": "0204d51179e004600907131ffa545802c0c4daf725e472e77e24fb3434856dba",
+    "originalPngSha256": "c96edd5fd0095f65662c82e286dd764660884a53033907d1a8b1a8ccf179ffcf",
+    "width": 1672,
+    "height": 941,
+    "type": "Original imagegen editorial artwork",
+    "alt": "Two fictional adults at a weather station table with a brass compass between them.",
+    "deliveryConversion": "WebP quality 92; original dimensions retained; no content alteration",
+    "visuallyReviewed": true
+  },
+  "editorialReview": {
+    "readerAction": "Name the current holder, narrate one physical movement and leave a clear action for the intended responder.",
+    "wordCount": 205,
+    "sourceLinksKeptInPrivateEvidence": true,
+    "factBasis": "Relevant primary documents and explicitly illustrative examples. No product operation, performance or actual print test is claimed.",
+    "reviewBasis": {
+      "intent": "How can I keep a shared object from changing hands before a character chooses to take it?",
+      "independentValue": "Name the current holder, narrate one physical movement and leave a clear action for the intended responder.",
+      "image": "Two fictional adults at a weather station table with a brass compass between them.",
+      "readability": "Individually edited answer-led prose and a bounded worked example; no copied brand-swap template.",
+      "layout": "Pending complete-build desktop/mobile checks; separately required before deployment."
+    }
+  }
+}
